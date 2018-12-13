@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/layout_walking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView 
+	        android:id="@+id/tv_walking"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/walk_mode"
+	        android:textSize="18sp"
+	        android:layout_centerInParent="true"
+	        android:layout_margin="15dp"
+	        android:gravity="center"
+	        />
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+    <RelativeLayout 
+        android:id="@+id/layout_driving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView 
+        	android:id="@+id/tv_driving"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/drive_mode"
+        	android:textSize="18sp"
+        	android:layout_centerInParent="true"
+        	android:layout_margin="15dp"
+        	android:gravity="center"
+        	/>
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+
+</LinearLayout>

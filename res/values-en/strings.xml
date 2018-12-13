@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Happy Tracker</string>
+    <string name="app_name_chinese">Happy Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="map">Map</string>
+    <string name="questionnaire_tab">Questionnaire</string>
+    <string name="trace">Trace</string>
+    <string name="mine">Me</string>
+	<string name="no_result">Sorry,can not search to the relevant data</string>
+	<string name="error_network">Searching failed,please check the network connection!</string>
+	<string name="error_key">key验证无效！</string>
+	<string name="error_other">Unknown error, please try again later!Error Number:</string>
+	<string name="all_offline">All City</string>
+	<string name="refresh">Refresh</string>
+	<string name="mainhome">Weibo</string>
+	<string name="advice_title">Advice Feedback</string>
+	<string name="id">UserID</string>
+	<string name="idlable_div">UserID:</string>
+	<string name="id_div">Phone</string>
+	<string name="id_star">Phone*</string>
+	<string name="id_illegal">Phone Number Illegal</string>
+	<string name="pwd">Password</string>
+	<string name="pwd_star">Password*</string>
+	<string name="pwd_hint"></string>
+	<string name="pwd_confirm">Comfirm Password*</string>
+	<string name="pwd_same"></string>
+	<string name="telenum">Cell phone number</string>
+	<string name="storeidpwd">Remember ID and password</string>
+	<string name="forgetpwd">Forget Password</string>
+	<string name="agree">I agree</string>
+	<string name="protocol">Protocol of Permit and Service</string>
+	<string name="register">Register</string>
+	<string name="tips_register">please register at first</string>
+	<string name="register_succ">Register Success</string>
+	<string name="register_fail_exist">This user has registed</string>
+	<string name="login">Login</string>
+	<string name="login_visiter">Visitor Identity Login</string>
+	<string name="change_password">Change Password</string>
+	<string name="oldpwd_div">Old Password*</string>
+	<string name="oldpwd">Old Password</string>
+	<string name="newpwd_div">New Password*</string>
+	<string name="newpwd">New Password</string>
+	<string name="input_pwd">Input Password</string>
+	<string name="input_pwd_again">Input Password Again</string>
+	<string name="confirm_newpwd">Confirm Password*</string>
+	<string name="savechange">Change Saving</string>
+	<string name="save">save</string>
+	<string name="register_info">Regist ID</string>
+	<string name="downmap_title">Select Offline Map</string>
+	<string name="downmap_amap">Download Offline AMap</string>
+	<string name="downmap_bmap">Download Offline BaiduMap</string>
+	<string name="getofflinecitylist">Getting Offline Cities List</string>
+	<string name="tips_startdownmap">Start downloading offline maps, city:</string>
+	<string name="choosemaptype">Please select map type</string>
+	<string name="amap_vector">AMap Vector</string>
+	<string name="amap_satallite">AMap Satellite</string>
+	<string name="google_map">Google Vector Map</string>
+	<string name="google_map_satallite">Google Satellite Map</string>
+	<string name="google_map_landform">Google Landform Map</string>
+	<string name="bmap_vector">Vector BaiduMap</string>
+	<string name="bmap_satallite">Satellite BaiduMap</string>
+	<string name="find_pwd">Find Password</string>
+	<string name="yourid_div">Your ID*</string>
+	<string name="yourid">Your ID</string>
+	<string name="secondpwd_div">Alternate Password*</string>
+	<string name="input_secpwd">Input Alternate Password</string>
+	<string name="tofindpwd">To Find Password</string>
+	<string name="resetpwd">Reset Password</string>
+	<string name="upload_photo">Upload Photo</string>
+	<string name="addpoi">Add Point of Interests</string>
+	<string name="addplace">Specific Location</string>
+	<string name="photo">Photo</string>
+    <string name="select">Select</string>
+    <string name="comment">Comment</string>
+    <string name="cancl">Cancel</string>
+    <string name="cancel_withdiv">\u3000Cancel\u3000|</string>
+    <string name="download_withdiv">\u3000Download\u3000|</string>
+    <string name="delete_withdiv">|\u3000Delete\u3000</string>
+    <string name="delete">Delete</string>
+    <string name="upload_withdiv">\u3000Upload\u3000|</string>
+    <string name="downupload_withdiv">\u3000Copy\u3000|</string>
+    <string name="total">Total</string>
+    <string name="confirm">OK</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="assume">OK</string>
+    <string name="submit">submit</string>
+    
+    <string name="allpic">All Picture</string>
+    <string name="commited">Comments have been uploaded</string>
+    <string name="saysomethint">Say Something...</string>
+    <string name="advicehint">I want to advice...</string>
+    <string name="tips">Tips</string>
+    <string name="areyousuredelete">Do you confirm that remove the pictures you have added?</string>
+    <string name="repeat">Pleace don not choose the same picture</string>
+    <string name="place">place displaying</string>
+    <string name="pushtogetmore">Pull up and load more</string>
+    <string name ="nomorethan9">Up to 9 files can be added</string>
+    <string name="cantusingsdcard">SD card is not available</string>
+    <string name="addpicture">Add Picture</string>
+    <string name="inputyourplace">Input place name...</string>
+    <string name="time">Time:</string>
+    <string name="speed">Speed</string>
+    <string name="speedunit">km/h</string>
+    <string name="person_center">Personal Center</string>
+    <string name="person_info">My Information</string>
+    <string name="mydata">My Profile</string>
+    <string name="mygroup">My Group</string>
+    <string name="nickname">Nickname:</string>
+    <string name="nickname_div">Nickname</string>
+    <string name="nickname_star">Nickname*</string>
+    <string name="nickname_hint"></string>
+    <string name="birthday">Birthdate</string>
+    <string name="birthday_div">Birthdate</string>
+    <string name="birthday_star">Birthdate*</string>
+    <string name="doubleclick">Double click here</string>
+    <string name="singleclick">Single click here</string>
+	<string name="zero">0</string>
+    <string name="double_zero">0.0</string>
+    <string name="calories_zero">0.0</string>
+    <string name="velocity_zero">0.0</string>
+	<string name="download_offline">Downloaded Map</string>
+	<string name="notification_txt">Location Service Running</string>
+	<string name="notification_title">Tracker Survey</string>
+	<string name="notification_message">Location service is running</string>
+	<string name="steplable">Steps Today</string>
+	<string name="steplable1">Steps:</string>
+	<string name="stepcount">0</string>
+	<string name="distancelable">Distance:</string>
+	<string name="distance">0</string>
+	<string name="starttime">Start Time:</string>
+	<string name="durationlable">Duration:</string>
+	<string name="interestpoint">Interests:</string>
+	<string name="dutation">00:00:00</string>
+	<string name="calorielable">Calorie</string>
+	<string name="calorie">0calorie</string>
+	<string name="calorieunit">calorie</string>
+	<string name="disunit">km</string>
+	<string name="month">Month</string>
+	<string name="y_lable">Steps(calorie)</string>
+	<string name="beijing">Beijing</string>
+	<string name="totalsize">Total Size</string>
+	<string name="seetrace">Trace View</string>
+	<string name="logout">Log Out</string>
+	<string name="questionnaire">Questionnarie</string>
+	<string name="userguide">User Guide</string>
+	<string name="startpoint">Start Point:</string>
+	<string name="starticon">Strat Point</string>
+	<string name="endpoint">End Point:</string>
+	<string name="endicon">End Point</string>
+	<string name="mytrace">My Trace</string>
+	<string name="filter">Filter</string>
+	<string name="mark">mark</string>
+	<string name="local">Local</string>
+	<string name="cloud">Cloud</string>
+	<string name="input_tracename">Input Trace Name</string>
+	<string name="choosetype">Choose Trace Type</string>
+	<string name="testtrace">Test Trace</string>
+	<string name="tips_localnotrace">No trace? Record your wonderful trace now!</string>
+	<string name="tips_cloudnotrace">No trace in Cloud,click here to refresh</string>
+	<string name="tips_cloudnewtrace">Found a new trace, pull down to refresh view</string>
+	<string name="tips_cloudnotrace_nonet">Network Exception! Please connect to the network, click here to refresh</string>
+	<string name="tips_selectvideo">The video must be less than 20MB</string>
+	<string name="tips_advicesubmit">Please enter your valuable suggestion</string>
+	<string name="tips_advicesuccess">Thank you for your valuable suggestion.</string>
+	<string name="tips_postfail">The operation failed. Please try again later.</string>
+	<string name="tips_getcommentsuccess">Get Comment Success</string>
+	<string name="tips_netdisconnect">Network exception! Please check the network connection</string>
+	<string name="tips_cannotaddmark">Network exception! Unable to add the POI</string>
+	<string name="tips_uploadpic_neterror">The current network situation is weak! Waiting for the network connection to upload photos</string>
+	<string name="tips_npwdnull">The new password can not be empty</string>
+	<string name="tips_pwdnull">The password can not be empty</string>
+	<string name="tips_npwdillegal">The new password contains illegal characters ?、!、#,etc</string>
+	<string name="tips_npwddiffer">Two new passwords are not consistent</string>
+	<string name="tips_pwddiffer">Two passwords are not consistent</string>
+	<string name="tips_opwderror">The original password is not correct</string>
+	<string name="tips_pwdchangeok">Modify Password Success</string>
+	<string name="tip">tip</string>
+	<string name="tips_changing">Modifying, please wait</string>
+	<string name="tips_takepicfail">Take photo failed, please try again or select a photo from your album!</string>
+	<string name="tips_choosevideofail">Unable to select the video, please confirm the status of the media library!</string>
+	<string name="tips_takevideofail">Video failed, please try again or select a video from the file manager!</string>
+	<string name="tips_commentsubmit">Can not upload the POI without comment</string>
+	<string name="tips_selectbehaviour">Please select activity</string>
+	<string name="tips_selectduration">Please select duration</string>
+	<string name="tips_selectpartnernum">Please select the number of your partner</string>
+	<string name="tips_selectrelationship">Please select the relation of your partner</string>
+	<string name="tips_uploadinbgbegin">uploding, you can see that in [Trace-Trace View-Interests] or [Me-My Album]</string>
+	<string name="tips_uploadinbg">Uploading...</string>
+	<string name="tips_uploadfaildlg_msg1">Upload the</string>
+	<string name="tips_uploadfaildlg_msg2">file</string>
+	<string name="tips_uploadfaildlg_msg3">, retransmit?</string>
+	<string name="tips_fail">fail</string>
+	<string name="tips_success">success</string>
+	<string name="tips_error">error</string>
+	<string name="tryagain">try again</string>
+	<string name="tips_docancle">Cancle operation</string>
+	<string name="tips_dofail">Operation failed, please try again or use other methods</string>
+	<string name="tips_savepath">Save folder</string>
+	<string name="tips_norighttomkdir">Your phone does not support the new folder, exit the camera</string>
+	<string name="tips_findsdfail">Storage directory is not found</string>
+	<string name="tips_createfilefail">Taking photo encounters problems, please click on the top of the "+" to select the photo</string>
+	<string name="tips_nosd">No storage card</string>
+	<string name="tips_selectvideoagain">Select video again</string>
+	<string name="tips_dlgtle_selectvideo">Select Video Mode</string>
+	<string name="tips_dlgtle_selectpic">Select Picture Mode</string>
+	<string name="downhasnew">Updated</string>
+	<string name="waiting">Waiting</string>
+	<string name="pausing">Pausing</string>
+	<string name="installsuccess">Install Successfully</string>
+	<string name="decompressing">decompressing</string>
+	<string name="neterror">Internet Error</string>
+	<string name="downhaserror">Download Exeption</string>
+	<string name="tips_dlgtle_init">loading</string>
+	<string name="tips_dlgmsg_inittrace">Loading...</string>
+	<string name="tips_dlgmsg_optmizetrace">Loading...</string>
+	<string name="tips_dlgmsg_inittracelist">Loading...</string>
+	<string name="tips_cloudtracenum">Traces in cloud:</string>
+	<string name="tips_startdown">Start Download</string>
+	<string name="tips_pausedown">Pause Download</string>
+	<string name="tips_downfinish">Download Finished</string>
+	<string name="tips_downfail_nodata">Download error, no relevant data</string>
+	<string name="tips_uploadsuccess">Upload to cloud successfully</string>
+	<string name="tips_uploadfail">Upload to cloud failed</string>
+	<string name="tips_deletefail">Delete failed</string>
+	<string name="tips_nodata">No Data</string>
+	<string name="tips_initfail">Failed to load, please try again later</string>
+	<string name="tips_inputillegal">Your input has illegal characters. Please re-enter</string>
+	<string name="tips_inputcannotnull">Input can not be empty</string>
+	<string name="tips_infonotwhole">Incomplete Information</string>
+	<string name="tips_birthillegal">Birthdate is not valid</string>
+	<string name="tips_pleaseinput">Please input</string>
+	<string name="tips_inputnewpwd">Please input new password</string>
+	<string name="tips_secpwderror">Alternate Password Error</string>
+	<string name="tips_idnotexist">Verify failed: Account does not exist</string>
+	<string name="tips_pwdtiperrpor">Verify failed: Password prompt information is not correct</string>
+	<string name="close">Close</string>
+	<string name="idpwdcannotnull">Account and password can not be empty</string>
+	<string name="tips_dlgtle_login">Login</string>
+	<string name="tips_dlgmsg_login">Connecting... Please wait....</string>
+	<string name="tips_dlgmsg_init">Loading... Please wait</string>
+	<string name="tips_loginfail_noid">Login failed: Account does not exist</string>
+	<string name="tips_loginfail_nopwd">Login failed: Password error</string>
+	<string name="tips_interrupttrace_msg">Detected the last track record interrupted. Continue to record the trace?</string>
+	<string name="tips_starttrace">Start recording</string>
+	<string name="tips_addmark">Click on the right side of the "camera" button to add a POI</string>
+	<string name="tips_choosetype">Please select a trace type</string>
+	<string name="end">End</string>
+	<string name="tips_endtracedlg_msg">To end the trace?</string>
+	<string name="tips_accuracy_msg">The current positioning accuracy is low, please open GPS to improve positioning accuracy</string>
+	<string name="tips_accuracydlg_msg">The current positioning accuracy is low, click [Yes] will record low precision position, click [No] only using high precision position.</string>
+	<string name="tips_recorderror_nogps">Record failed and failed to locate your location</string>
+	<string name="tips_recordsuccess">Uploaded to the cloud successfully</string>
+	<string name="tips_recordsuccess_postfail">End of record but failed to upload to the cloud</string>
+	<string name="tips_recordsuccess_nonet">Your phone is offline, and the trace is stored locally.</string>
+	<string name="tips_uploadtracedlg_msgfail">An unknown error occurred in the trace, and the trace is stored locally. The system will automatically reupload the traces which are not uploaded to the the cloud. Try again?</string>
+	<string name="tips_uploadtracedlg_msgnonet">No network. Trace stored in the local. The system will be automatically uploaded to the cloud when connected to network</string>
+	<string name="tips_share_nonet1">Please connect to the network to share</string>
+	<string name="tips_share_nonet2">Share failed. Please check your network connection and try again</string>
+	<string name="tips_share_fail">Share failed. Please try again later.</string>
+	<string name="tips_uploadpic_nonet">Automatic upload after connecting to WiFi</string>
+	<string name="myalbum">My Album</string>
+	<string name="tips_deletedlgmsg_album">Do you want to delete this comment?</string>
+	<string name="tips_deletedlgmsg_trace">Sure to delete the selected trace? The trace is in local and cloud will be deleted and can not be restored.</string>
+	<string name="tips_deletedlgmsg_trace1">Sure to delete the selected trace? The trace is in local and cloud will be deleted and can not be restored.</string>
+	<string name="tips_notraceselected">No selected trace</string>
+	<string name="tips_handling">Processing...</string>
+	<string name="tips_deletedlgmsg">Delete...</string>
+	<string name="tips_downmsg">Downloading...</string>
+	<string name="tips_downupmsg">Copy...</string>
+	<string name="tips_uploadmsg">Uploading...</string>
+	<string name="tips_traceexist">Trace already exist</string>
+	<string name="totaltxt1">choose</string>
+	<string name="totaltxt2"></string>
+	<string name="tips_deletesuccess">Delete Successfully</string>
+	<string name="tips_deletefail_dberror">Database error! Please upgrade to the latest version</string>
+	<string name="tips_picnotfound">The image upload failed</string>
+	<string name="tips_videonotfound">The video upload failed</string>
+	<string name="tips_videodownfail">Video download failed, please try again later</string>
+	<string name="tips_changesuccess">Change Success</string>
+	<string name="checkupdate">Check for update</string>
+	<string name="tips_hasnew">Have updated</string>
+	<string name="tips_alreadynew">This is the latest version</string>
+	<string name="tips_updatedlgmsg">Checking for updates, please wait...</string>
+	<string name="tips_updatedlg_tle">Update</string>
+	<string name="tips_updatedlg_msg1">Check to the latest version</string>
+	<string name="tips_downnewapk">Download the latest version</string>
+	<string name="tips_downprogress">Download Progress</string>
+	<string name="tips_updatedlg_msg2">Version Number:</string>
+	<string name="tips_updatedlg_msg3">File Size:</string>
+	<string name="tips_updatedlg_msg4">Release Time:</string>
+	<string name="tips_updatedlg_msg5">Update content:</string>
+	<string name="tips_updatedlg_msg6">Click OK to download the latest version</string>
+	<string name="tips_update_alreadynew">You are using the latest version</string>
+	<string name="tips_autodownnewapk">Download the latest version of the application. Download progress can be seen in the notification bar. You can turn off the automatic download in 【Settings】</string>
+	<string name="tips_gotodownnewapk">Download the latest version of the application. Download progress can be seen in the notification bar.</string>
+	<string name="tips_newapkdown">The latest version of the application is downloaded, please click on the notification bar to install</string>
+	<string name="tips_install">Click to install</string>
+	<string name="sportdata">Sport Data</string>
+	<string name="tips_synchronous">Synchronizing</string>
+	<string name="tips_synchronous_succ">Synchronize Successfully</string>
+	<string name="setbyserver">Seconds  (Background Setting)</string>
+	<string name="hour">hour</string>
+	<string name="minute">minute</string>
+	<string name="someday">someday</string>
+	<string name="mobconnect_tips">Are you sure to upload comments in the mobile network? It may consume more data flow. If you do not want to, click [Cancel], the system will be upload when connected to the WiFi.</string>
+	<string name="tips_uploadpic_nowifi">Currently no WiFi network connection. It will be automatically uploaded while connected to the WiFi network </string>
+	<string name="share_title">Trace Sharing</string>
+	<string name="share_detail">Trace Content</string>
+	<string name="exit">Exit</string>
+	<string name="open">Open</string>
+	<string name="tips_clean">Are you sure you want to clear the cache data for this application? It including photos, videos and trace information stored in the local.</string>
+	<string name="exitdlg">Exit the App?</string>
+	<string name="exitdlg0">Recording trace currently, forcing the exit will cause the trace interrupt, still want to exit the application?</string>
+	<string name="exitdlg1">Are you sure to exit the current account?</string>
+	<string name="exitdlg2">Recording trace.Forced exit will cause the trace to be interrupted.Do you still want to exit the current account?</string>
+	<string name="tips_exit">Click again to exit</string>
+	<string name="tips_agreeprotocol">Please agree to this software license and service agreement</string>
+	<string name="iagreeprotocol">I agree to this software license and service agreement</string>
+	<string name="tips_dlgtle_protocol">Software Licensing and Service Agreement</string>
+	<string name="tips_dlgmsg_protocol1">1.This software needs to get your location information</string>
+	<string name="tips_dlgmsg_protocol2">2.This software needs to obtain your call record time as well as the short message sending and receiving time. It will not see your telephone record and the short message content absolutely.</string>	
+	<string name="tips_dlgmsg_protocol3">3.You understand and agree that: in order to provide effective services to you, this software could produce the data flow and will use resource of your mobile communication terminal processor and bandwidth. The use of the software process may generate data traffic costs. Users need to know the relevant tariff information to the operator and to bear the relevant costs</string>
+	<string name="tips_dlgmsg_protocol4">4.Do not responsible for the deletion or storage of your data in the software and services.</string>
+	<string name="tips_dlgmsg_protocol5">5.You use this software to see that you have read and agreed to be bound by this agreement.Developers have the right to modify the terms of this agreement if necessary. You can refer to the relevant agreement clauses in the latest version of the software.If you continue to use the software after the terms of this agreement has changed, it is deemed that you have accepted the modified protocol.If you do not accept it, you should stop using this software.</string>	
+	
+	<string name="tips_gpsdlgtle">Open GPS</string>	
+	<string name="tips_gpsdlgmsg11">The trace type you selected is walking, please open GPS to record.</string>	
+	<string name="tips_gpsdlgmsg10">Trace recording. Detect that GPS is not turned on. Recommended to open GPS in the case of sufficient power to improve accuracy. Click [OK] to open GPS。</string>	
+	<string name="tips_cannotloc">Please open the network or GPS to record, click [open] will enter the GPS settings interface</string>
+	<string name="tips_gpsdlgmsg2">Open Mothod:\nMothod1.Press the GPS button on the top notification bar\nMothod2.Choose "high accuracy" in Location mode</string>	
+	<string name="pull_to_refresh_pull_label">Pull down refresh</string>
+    <string name="pull_to_refresh_release_label">Refresh after loosen</string>
+    <string name="pull_to_refresh_refreshing_label">Refresh\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">Release to load</string>
+    <string name="pull_to_refresh_footer_pull_label">Pull up to load more</string>
+    <string name="pull_to_refresh_footer_refreshing_label">loading\u2026</string>
+    <string name="tips_refreshsuccess">Refresh Successfully</string>
+    <string name="tips_deloffmap">Delete Offline Map</string>
+    <string name="tips_errorversion">Application error, please try again or restart the application</string>
+    <string name="tips_exception">Sorry, an exception occured, about to exit...</string>
+    <string name="noshow">No longer remind</string>
+    <string name="minegroup">Joined Group</string>
+    <string name="allgroup">All Group</string>
+    <string name="addgroup">Add Group</string>
+    <string name="joingroup">Join Group</string>
+    <string name="exitgroup">Exit</string>
+    <string name="nojoinedgroup">You have not joined any group. Find the group you are interested in [Add Group] and join it. Click here to refresh</string>
+    <string name="nogroup">No group. Click here refresh</string>
+    <string name="trytorefresh">Network exception. Click here refresh</string>
+    <string name="tips_initgroup">Loading group information, please wait...</string>
+    <string name="tips_pleasechoosegroup">Please select a group</string>
+    <string name="tips_quitgroupdlg_msg">Are you sure to exit the selected group?</string>
+    <string name="tips_quitgroupsuccess">Exit group successfully</string>
+    <string name="tips_quitgroupfail">Exit group failed, please try again</string>
+    <string name="tips_applygroupsuccess">Application has been sent. Please wait for the administrator to confirm</string>
+    <string name="tips_applygroupfail">Application failed to send. Please try again later</string>
+    <string name="tips_joingroupsuccess">Add group successfully</string>
+    <string name="tips_joingroupfail">Add group failed. Please try again</string>
+    <string name="tips_cleanok">Cache is cleared</string>
+    <string name="groupinfo">Group Information</string>
+    <string name="group_name">Group Name</string>
+    <string name="group_detail">Group Detail</string>
+    <string name="member_nums">Members</string>
+    <string name="create_time">Create Time</string>
+    <string name="create_man">Create Person</string>
+    <string name="manager_ids">Administrator</string>
+    <string name="searchgroups">Enter a group name</string>
+    <string name="tips_search_cannotnull">Input can not be empty</string>
+    <string name="tips_searching">Searching</string>
+    <string name="tips_search_nogroup">No related group</string>
+    <string name="tips_bgrunguide">In order to ensure that the application can continue to run in the background, please join the application to the "white list" or "protection list" of the Memory Cleanup. After you have completed this operation, please click on [no reminder]. Click [OK] and guide you to operate</string>
+    <string name="addmarker">Add POI</string>
+    <string name="checktraceinfo">Trace Information</string>
+    <string name="poi">Interests</string>
+    <string name="add">Add</string>
+    <string name="feeling">Feeling:</string>
+    <string name="feelingst">Feeling:</string>
+    <string name="happy">Happy</string>
+    <string name="general">General</string>
+    <string name="unhappy">Unhappy</string>
+    <string name="behaviour">Activity:</string>
+    <string name="partner_num">Partner:</string>
+    <string name="relation">Relation:</string>
+    <string name="duration">Duration:</string>
+    <string name="selectplease">Select</string>
+    <string name="url">http://219.218.118.176:8090/Communication/</string>
+    <string name="url_crash">http://219.218.118.176:8090/Communication/upExceptionInfo.aspx</string>
+    <string name="url_heart">http://219.218.118.176:8090/Communication/heartbeat.aspx</string>
+	<string name="url_file">http://219.218.118.176:8089/Mobile/</string>
+	<string name="url_upevent">http://219.218.118.176:8090/Communication/upComment.aspx</string>
+	<string name="url_upfile">http://219.218.118.176:8089/Mobile/upFile.aspx</string>
+	<string name="url_downevent">http://219.218.118.176:8089/Mobile/downComment.aspx</string>
+	<string name="url_downfile">http://219.218.118.176:8089/Mobile/downFile.aspx</string>
+	<string name="url_deleteevent">http://219.218.118.176:8089/Mobile/userChgCmt.aspx</string>
+	<string name="url_wx">http://www.lisoft.com.cn/Share/PoMobile.ashx?</string>
+	<string name="app_copyright1">copyright @2016</string>
+	<string name="app_copyright2">School of Management and School of Computer</string>
+	<string name="app_copyright3">of ShandongUniversity.</string>
+	<string name="app_copyright4">All Rights Reserved.</string>
+	
+	<string name="app_link">http://www.hptracker.com</string>
+	<string name="wxappid">wxbe3210c55c8d7e64</string>
+	
+	<string name="item_helpdoc">Help</string>
+	<string name="item_advice">Advice Feedback</string>
+	<string name="item_checkupdate">Update Checking</string>
+	<string name="item_personalinfo">Personal Information</string>
+	<string name="item_mydata">My Profile</string>
+	<string name="item_mygroup">My Group</string>
+	<string name="item_changepwd">Change Password</string>
+	<string name="item_sportdata">Sport Data</string>
+	<string name="item_myalbum">My Album</string>
+	<string name="item_offlinemap">Offline Map</string>
+	<string name="item_settings">Settings</string>
+	<string name="item_setbgrun">Guide to background running</string>
+	<string name="item_setparameter">Parameter Settings</string>
+	<string name="item_clean">Clear Cache</string>
+	<string name="item_about">About</string>
+	<string name="item_exit">Exit current account</string>
+	<!-- 统设置界面需要用到的字符串 -->
+	<string name="tuli">Historical movement data(Green represents the number of steps. Yellow indicates calories)</string>
+	<string name="refreshbtn">Synchronize\nImmediately</string>
+    <string name="system_settings">System Settings</string>
+    <string name="auto_update_setting">Auto update settings</string>
+    <string name="auto_update_switch_title">Check for updates</string>
+    <string name="auto_update_switch_key">auto_update_switch</string>
+    <string name="auto_update_switch_summary_on">Automatically check for updates</string>
+    <string name="auto_update_switch_summary_off">Close automatically check for updates</string>
+    
+    <string name="auto_upload_switch_title">Upload location only in WiFi</string>
+    <string name="auto_upload_switch_key">auto_upload_switch</string>
+    <string name="auto_upload_switch_summary_on">Upload only in WiFi state</string>
+    <string name="auto_upload_switch_summary_off">WiFi、GPRS(2G/3G/4G)network state can be uploaded</string>
+    
+    <string name="auto_uploadpic_switch_title">Upload media only in WiFi</string>
+    <string name="auto_uploadpic_switch_key">auto_uploadpic_switch</string>
+    <string name="auto_uploadpic_switch_summary_on">Upload only in WiFi state</string>
+    <string name="auto_uploadpic_switch_summary_off">WiFi、GPRS(2G/3G/4G)network state can be uploaded</string>
+    
+    <string name="auto_update_frequency_title">Update Interval of Parameters</string>
+    <string name="auto_update_frequency_key">auto_update_frequency</string>
+    <string name="auto_update_frequency_default_value">60</string>
+    <string name="auto_update_frequency_summary">Update the interval of locating period</string>
+    
+    <string name="language_title">Language</string>
+    <string name="language_key">language</string>
+    <string name="language_default_value">0</string>
+    <string name="language_summary">Language</string>
+    
+    <string name="auto_upload_frequency_title">Upload interval of position data</string>
+    <string name="auto_upload_frequency_key">auto_upload_frequency</string>
+    <string name="auto_upload_frequency_default_value">30</string>
+    <string name="auto_upload_frequency_summary">设置位置上传时间间隔</string>
+    
+    <string name="auto_record_loc_frequency_title">Local positioning interval</string>
+    <string name="auto_record_loc_frequency_key">auto_rec_loc_frequency</string>
+    <string name="auto_record_loc_frequency_default_value">5</string>
+    <string name="auto_record_loc_frequency_summary">设置记录状态下定位时间间隔</string>
+    
+    <string name="auto_norecord_loc_frequency_title">非记录状态下定位时间间隔</string>
+    <string name="auto_norecord_loc_frequency_key">auto_norec_loc_frequency</string>
+    <string name="auto_norecord_loc_frequency_default_value">10</string>
+    <string name="auto_norecord_loc_frequency_summary">设置非记录状态下定位时间间隔</string>
+    
+    <string name="share_to_wx_session">WeChat Friends</string>
+    <string name="share_to_wx_timeline">WeChat Moments</string>
+    <string name="share_to_qzone">Qzone</string>
+    <string name="share_to_qq">QQ Friends</string>
+    <string name="share_to">Share to</string>
+    <string name="cantdisplayimg">can not displaying</string>
+    <string name="picture_failed">Part of the original failed download,only display thumbnails</string>
+    
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    
+    <string name="pathplaning">path planning</string>
+    <string name="select_mode">path planning mode</string>
+    <string name="walk_mode">walk</string>
+    <string name="drive_mode">drive</string>
+    <string name="bus_mode">bus</string>
+    <string name="select_dest">search</string>
+    <string name="beginning">from</string>
+    <string name="destination">to  </string>
+    <string name="walk_to">walk to</string>
+    <string name="drive_to">drive to</string>
+    <string name="by_bus_to">take bus</string>
+    <string name="search">search</string>
+    <string name="mylocation">my location</string>
+    <string name="input_begin">departure</string>
+    <string name="input_end">destination</string>
+    <string name="calculate_tips">Touch the map to add measuring point</string>
+    <string name="route_tips">Touch the map to add the planning point.Click the button of top left corner to delete the point you just append.Click the search button of top right corner to search the your start point and destination.You can change the planning mode by clicking the right image.</string>
+    <string name="total_distance">total distance</string>
+    <string name="total_area">total area</string>
+    <string name="square_meter">square meter</string>
+    <string name="square_kilometer">square kilometer</string>
+    <string name="to_the_previous_point">to the previous point</string>
+    <string name="latitude"></string>
+    <string name="longitude"></string>
+    <string name="altitude"></string>
+    
+	<string-array name="education">
+        <item> 1 Under Junior High School Education</item>
+        <item> 2 Junior High School Education</item>
+        <item> 3 High School Education</item>
+        <item> 4 Junior College Degree</item>
+        <item> 5 Bachelor</item>
+        <item> 6 Master</item>
+        <item> 7 Doctor</item>
+    </string-array>
+    <string-array name="vocation">
+        <item> 1 Student</item>
+        <item> 2 Teacher</item>
+        <item> 3 Soldier</item>
+        <item> 4 Worker</item>
+        <item> 5 Farmer</item>
+        <item> 6 Civil Servant</item>
+        <item> 7 Retire</item>
+        <item> 8 Individual Management</item>
+        <item> 9 Clerk</item>
+        <item>10 Laid-off</item>
+        <item>11 Other</item>
+    </string-array>
+    <string-array name="income">
+        <item>0 0-10thousands</item>
+        <item>1 10-20thousands</item>
+        <item>2 20-30thousands</item>
+        <item>3 30-40thousands</item>
+        <item>4 40-50thousands</item>
+        <item>5 50-60thousands</item>
+        <item>6 60-70thousands</item>
+        <item>7 70-80thousands</item>
+        <item>8 80-90thousands</item>
+        <item>9 90-100thousands</item>
+        <item>10 100-200thousands</item>
+        <item>20 200-300thousands</item>
+    </string-array>
+    <string-array name="marriage">
+        <item>0 Unknown</item>
+        <item>1 Unmarried</item>
+        <item>2 Married</item>
+        <item>3 Divorce</item>
+    </string-array>
+    <string-array name="hildren">
+        <item>0 0</item>
+        <item>1 1</item>
+        <item>2 2</item>
+        <item>3 3</item>
+        <item>4 4</item>
+        <item>5 5</item>
+    </string-array>
+	 <!-- 系统设置界面需要要到的数组 -->
+	<string-array name="auto_update_frequency_entry">
+		<item>10seconds</item>
+		<item>30minutes</item>
+		<item>1hour</item>
+		<item>12hours</item>
+		<item>24hours</item>	
+	</string-array>
+	<string-array name="auto_update_frequency_value">
+		<item>10</item>
+		<item>30</item>
+		<item>60</item>
+		<item>720</item>
+		<item>1440</item>	
+	</string-array>
+	<string-array name="language_entry">
+		<item>中文（简体）</item>
+		<item>English</item>
+		
+		
+	</string-array>
+	<string-array name="language_value">
+		<item>0</item>
+		<item>1</item>
+		
+		
+	</string-array>
+	<string-array name="way_selectvideo">
+	    <item >Videotape</item>
+	    <item >Select File</item>
+	</string-array>
+	<string-array name="way_selectpic">
+	    <item >Take Photo</item>
+	    <item >Album</item>
+	</string-array>
+	<string-array name="personinfo">
+	    <item >My Data</item>
+	    <item >My Group</item>
+	    <item >Modify Password</item>
+	    <item >Sport Data</item>
+	    
+	</string-array>
+	<string-array name="personcenter">
+	    <item >Personal Information</item>  
+	    <item >My Album</item>
+	    <item >Offline Map</item>
+	    <item >Help</item>
+	    <item >General Settings</item>
+	    <item >Keep running in background</item>
+	    <item >Check for update</item>
+	    <item >Advice Feedback</item>
+	    
+	</string-array>
+	<string-array name="aboutmenu">
+	    
+	    <item >help</item>
+	    
+	    <item >Advice Feedback</item>
+	    <item >check update</item>
+	</string-array>
+	<string-array name="downmap">
+	    <item>Download Offline AMap</item>
+	    <item>Download Offline BaiduMap</item>
+	</string-array>
+	<string-array name="sporttype">
+	    <item>walk</item>
+		<item>bike</item>
+		<item>slide</item>
+		<item>car</item>
+		<item>train</item>	
+		<item>other</item>	
+	</string-array>
+	<string-array name="phonebrand">
+	    <item>xiaomi</item>
+	    <item>meizu</item>
+	    <item>honor</item>
+	    <item>huawei</item>
+	    <item>vivo</item>
+	    <item>oppo</item>
+	    <item>htc</item>
+	    <item>coolpad</item>
+	</string-array>
+	<string-array name="popmenu">
+	    <item>Delete Trace</item>
+	    <item>Refresh</item>
+	    
+	</string-array>
+	<string-array name="toolpopmenu">
+	    <item >Measure Distance</item>
+	    <item >Measure Area</item>
+	    <item >Path Planning</item>
+	</string-array>
+	<string-array name="durationarray">
+	    <item>小于10分钟</item>
+	    <item>10-29分钟</item>
+	    <item>30-59分钟</item>
+	    <item>大于1小时</item>
+	   
+	</string-array>
+	<string-array name="behaviourarray">
+	    <item>睡眠</item>
+	    <item>家务</item>
+	    <item>用餐</item>
+	    <item>购物</item>
+	   	<item>工作或业务</item>
+	    <item>上学或学习</item>
+	    <item>遛弯散步</item>
+	    <item>体育锻炼</item>
+	    <item>接送家人朋友等</item>
+	    <item>社交活动</item>
+	    <item>外出办事</item>
+	    <item>娱乐休闲</item>
+	    <item>联络活动</item>
+	    <item>个人护理</item>
+	    <item>照顾亲属</item>
+	    <item>上网</item>
+	    <item>看病就医</item>
+	    <item>外出旅游</item>
+	    <item>其他</item>
+	    
+	</string-array>
+	<string-array name="partnernumarray">
+	    <item>0</item>
+	    <item>1-5人</item>
+	    <item>6人及以上</item>
+	</string-array>
+	<string-array name="relationarray">
+	    <item>同事</item>
+	    <item>同学</item>
+	    <item>朋友</item>
+	    <item>家人</item>
+	    <item>其他</item>
+	</string-array>
+	<string-array name="layers_array">
+	    <item>@string/normal</item>
+	    <item>@string/satellite</item>
+	</string-array>
+</resources>

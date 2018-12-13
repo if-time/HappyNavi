@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trackersurvey.happynavi"
+    android:versionCode="187"
+    android:versionName="1.8.7" 
+    >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.trackersurvey.helper.MyApplication"
+         >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="024b0f76892f0d460b85684b844dcd91" />
+		
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity 
+            android:name=".StartPage"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+         <activity
+            android:name=".ChangePassword"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".UserGuide"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+         
+          <activity
+            android:name=".ForgetPassword"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+         
+         <activity
+            android:name=".MyInformation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".TabHost_Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Personal_main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".TrailsAnalysis"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".TraceListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Questionnaire"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Administrator"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".DrawPath"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        
+        <activity
+            android:name=".MarkingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        
+        <activity
+            android:name=".DrawnByHandActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        
+        <activity
+            android:name=".DestinationSearchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        
+        <activity
+            android:name=".RoutePlanning"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.trackersurvey.offlinemap.OfflineMapActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+       
+        <activity
+            android:name=".CommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme"  >
+        </activity>
+        <activity
+            android:name=".Advice"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/TitleTheme"  >
+        </activity>
+        <activity
+            android:name=".MyCommentActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        
+        <activity
+            android:name=".ConfirmPlace"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        <activity
+            android:name=".Personal_info"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        <activity
+            android:name=".PersonalSportData"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/TitleTheme" >
+        </activity>
+		<activity 
+		    android:name=".SelectedPictureActivity" 
+		    android:screenOrientation="portrait"
+		    android:launchMode="singleTop"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        <activity 
+		    android:name=".SelectedPictureActivity2" 
+		    android:screenOrientation="portrait"
+		    android:launchMode="singleTop"
+            android:theme="@style/TitleTheme" >
+        </activity>
+        <activity 
+            android:name=".PictureBrowser"
+            android:theme="@style/android:Theme.Holo.Light"
+            android:screenOrientation="portrait"
+		    android:launchMode="singleTop">
+        </activity>
+		<activity 
+		    android:name=".SetParameter" 
+		    android:screenOrientation="portrait"
+		    android:launchMode="singleTop"
+		    android:theme="@style/TitleTheme"  >
+		</activity>
+		<activity 
+		    android:name="com.trackersurvey.wxapi.WXEntryActivity" 
+            android:theme="@style/TitleTheme" >
+        </activity>
+        <activity 
+            android:name="com.tencent.tauth.AuthActivity"
+            android:noHistory="true"
+            android:launchMode="singleTask" >
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent1105447917"/>
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            ></activity>
+        <activity 
+            android:name=".BGRunningGuide"
+            android:launchMode="singleTop">
+            
+        </activity>
+        <activity 
+            android:name=".MyGroupActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme">
+            
+        </activity>
+        <activity 
+            android:name=".GroupInfoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme">
+            
+        </activity>
+        <activity 
+            android:name=".AboutHappyNavi"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme">
+            
+        </activity>
+        <activity 
+            android:name=".SettingsMain"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme">
+            
+        </activity>
+        <service android:name="com.trackersurvey.service.GpsTrace" />
+        <service android:name="com.trackersurvey.service.CommentUploadService" />
+        <service android:name="com.trackersurvey.service.StepCounterService" />
+        <service android:name="com.trackersurvey.service.EventUploadServicer" >
+        </service>
+        <service android:name="com.trackersurvey.service.DownloadService">
+        </service>
+        <!-- 定位需要的服务 -->
+        <service android:name="com.amap.api.location.APSService" />
+		
+        <receiver android:name="com.trackersurvey.service.EventReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.hardware.action.NEW_PICTURE" /><!--拍照-->
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter android:priority="1000" >
+                <action android:name="android.hardware.action.NEW_VIDEO" /><!--录像-->
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter android:priority="1000" >
+               
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" /><!--收到短信-->
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL"/><!--拨打电话-->
+				<action android:name="android.intent.action.PHONE_STATE"/><!--来电状态：接听、挂断、响铃-->
+               
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 需要系统应用级别的权限
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+   	 发送短信权限
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    	编辑短信
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+             写入通话记录
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>  
+   
+    -->
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>  
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	<uses-permission android:name="android.permission.GET_TASKS"/>  
+	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>  
+	<uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO"/>  
+	<uses-permission android:name="android.permission.REORDER_TASKS"/> 
+	<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+</manifest>

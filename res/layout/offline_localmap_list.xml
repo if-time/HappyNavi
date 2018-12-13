@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/offline_common_title_btn_selector"
+    android:paddingLeft="10dp" 
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/beijing"
+        android:textColor="@color/taobao_black"
+        android:textSize="@dimen/font_32" />
+
+    <TextView
+        android:id="@+id/ratio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/title"
+        android:text="@string/totalsize"
+        android:textColor="@color/offline_down_size"
+        android:textSize="@dimen/font_24" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical" >
+
+       <ImageButton
+        android:id="@+id/start"
+      
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bd_start"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        
+        />
+    
+    <ImageButton
+        android:id="@+id/stop"
+       
+        
+        android:layout_width="match_parent"
+      android:layout_height="match_parent"
+        android:layout_weight="1"
+    android:background="@drawable/bd_pause"
+     
+        />
+
+    
+    
+    <ImageButton
+        android:id="@+id/remove"
+      
+        
+        android:layout_width="match_parent"
+      android:layout_height="match_parent"
+        android:layout_weight="1"
+     android:background="@drawable/bd_delete"
+         />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_lite" />
+
+</RelativeLayout>

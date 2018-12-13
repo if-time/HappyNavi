@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Happy Tracker</string>
+    <string name="app_name_chinese">Happy Tracker</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="map">Mapa</string>
+    <string name="questionnaire_tab">Dotazník</string>
+    <string name="trace">Trasa</string>
+    <string name="mine">Já</string>
+	<string name="no_result">Je nám líto, ale nelze vyhledat relevantní data</string>
+	<string name="error_network">Hledání se nezdařilo, prosím zkontrolujte síťové připojení!</string>
+	<string name="error_key">Došlo k chybě！</string>
+	<string name="error_other">Neznámá chyba, zkuste to znovu později!</string>
+	<string name="all_offline">Všechna města</string>
+	<string name="refresh">Obnovit</string>
+	<string name="mainhome">Weibo</string>
+	<string name="advice_title">Zpětná vazba</string>
+	<string name="id">Uzivatelske ID</string>
+	<string name="idlable_div">Uzivatelske ID:</string>
+	<string name="id_div">Mobilní číslo</string>
+	<string name="id_star">Mobilní číslo*</string>
+	<string name="id_illegal">Chybné mobilní číslo</string>
+	<string name="pwd">Heslo</string>
+	<string name="pwd_star">Heslo*</string>
+	<string name="pwd_hint"></string>
+	<string name="pwd_confirm">Potvrdit Heslo*</string>
+	<string name="pwd_same"></string>
+	<string name="telenum">Mobilní číslo</string>
+	<string name="storeidpwd">Zapamatovat ID a heslo</string>
+	<string name="forgetpwd">Zapomenout heslo</string>
+	<string name="agree">Souhlasím</string>
+	<string name="protocol">Protokol o povolení a službě</string>
+	<string name="register">Registrovat</string>
+	<string name="tips_register">Prosím, nejprve se zaregistrujte</string>
+	<string name="register_succ">Registrace proběhla úspěšně</string>
+	<string name="register_fail_exist">Uživatel už existuje</string>
+	<string name="login">Přihlášení</string>
+	<string name="login_visiter">Přihlášení návštěvníka</string>
+	<string name="change_password">Změnit heslo</string>
+	<string name="oldpwd_div">Staré heslo*</string>
+	<string name="oldpwd">Staré heslo</string>
+	<string name="newpwd_div">Nové heslo*</string>
+	<string name="newpwd">Nové heslo</string>
+	<string name="input_pwd">Vložit heslo</string>
+	<string name="input_pwd_again">Znovu vložit heslo</string>
+	<string name="confirm_newpwd">Potvrdit heslo*</string>
+	<string name="savechange">Změna</string>
+	<string name="save">uložit</string>
+	<string name="register_info">Registrovat ID</string>
+	<string name="downmap_title">Zvolit Offline Mapu</string>
+	<string name="downmap_amap">Stáhnout offline Amapu</string>
+	<string name="downmap_bmap">Stáhnout Offline BaiduMapu</string>
+	<string name="getofflinecitylist">Získat offline seznam měst</string>
+	<string name="tips_startdownmap">Začít stahovat offline mapy, města:</string>
+	<string name="choosemaptype">Prosím zvolte typ mapy</string>
+	<string name="amap_vector">AMap Vektor</string>
+	<string name="amap_satallite">AMap Satelit</string>
+	<string name="google_map">Google Vektorová Mapa</string>
+	<string name="google_map_satallite">Google satelitní mapa</string>
+	<string name="google_map_landform">Google terénní mapa</string>
+	<string name="bmap_vector">Vektorová BaiduMapa</string>
+	<string name="bmap_satallite">Satelitní BaiduMapa</string>
+	<string name="find_pwd">Zapomenuté heslo</string>
+	<string name="yourid_div">Vaše ID*</string>
+	<string name="yourid">Vaše ID</string>
+	<string name="secondpwd_div">Záložní heslo*</string>
+	<string name="input_secpwd">Vložit záložní heslo</string>
+	<string name="tofindpwd">Obnovit heslo</string>
+	<string name="resetpwd">Resetovat heslo</string>
+	<string name="upload_photo">Nahrát fotku</string>
+	<string name="addpoi">Přidat bod zájmu</string>
+	<string name="addplace">Přidat polohu</string>
+	<string name="photo">Fotky</string>
+    <string name="select">Zvolit</string>
+    <string name="comment">Komentovat</string>
+    <string name="cancl">Zrušit</string>
+    <string name="cancel_withdiv">\u3000Cancel\u3000|</string>
+    <string name="download_withdiv">\u3000Download\u3000|</string>
+    <string name="delete_withdiv">|\u3000Delete\u3000</string>
+    <string name="delete">Smazat</string>
+    <string name="upload_withdiv">\u3000Upload\u3000|</string>
+    <string name="downupload_withdiv">\u3000Copy\u3000|</string>
+    <string name="total">Celkem</string>
+    <string name="confirm">OK</string>
+    <string name="yes">ano</string>
+    <string name="no">ne</string>
+    <string name="assume">OK</string>
+    <string name="submit">Odeslat</string>
+    
+    <string name="allpic">Všechny fotky</string>
+    <string name="commited">Komentáře byly nahrané</string>
+    <string name="saysomethint">Řekni něco...</string>
+    <string name="advicehint">Chci poradit...</string>
+    <string name="tips">Tipy</string>
+    <string name="areyousuredelete">Opravdu chcete odstranit obrázky, které jste přidali?</string>
+    <string name="repeat">Prosím, nevybírejte stejný obrázek</string>
+    <string name="place">Místo zobrazování</string>
+    <string name="pushtogetmore">Zatáhnout a zobrazit více</string>
+    <string name ="nomorethan9">Nelze přidat více než 9 souborů</string>
+    <string name="cantusingsdcard">SD karta není dostupná</string>
+    <string name="addpicture">Přidat obrázek</string>
+    <string name="inputyourplace">Přidat název místa...</string>
+    <string name="time">Čas:</string>
+    <string name="speed">Rychlost</string>
+    <string name="speedunit">km/h</string>
+    <string name="person_center">Osobní centrum</string>
+    <string name="person_info">Moje informace</string>
+    <string name="mydata">Můj profil</string>
+    <string name="mygroup">Moje skupina</string>
+    <string name="nickname">Přezdívka:</string>
+    <string name="nickname_div">Přezdívka</string>
+    <string name="nickname_star">Přezdívka*</string>
+    <string name="nickname_hint"></string>
+    <string name="birthday">Datum narození</string>
+    <string name="birthday_div">Datum narození</string>
+    <string name="birthday_star">Datum narození*</string>
+    <string name="doubleclick">Dvakrát kliknout zde</string>
+    <string name="singleclick">Kliknout zde</string>
+	<string name="zero">0</string>
+    <string name="double_zero">0.0</string>
+    <string name="calories_zero">0.0</string>
+    <string name="velocity_zero">0.0</string>
+	<string name="download_offline">Stáhnout mapu</string>
+	<string name="notification_txt">Sledování polohy zapnuto</string>
+	<string name="notification_title">Tracker Survey</string>
+	<string name="notification_message">Sledování polohy zapnuto</string>
+	<string name="steplable">Počet kroků dnes</string>
+	<string name="steplable1">Kroky:</string>
+	<string name="stepcount">0</string>
+	<string name="distancelable">Vzdálenost:</string>
+	<string name="distance">0</string>
+	<string name="starttime">Čas spuštění:</string>
+	<string name="durationlable">Trvání:</string>
+	<string name="interestpoint">Zájmy:</string>
+	<string name="dutation">00:00:00</string>
+	<string name="calorielable">Kalorie</string>
+	<string name="calorie">0Kalorie</string>
+	<string name="calorieunit">Kalorie</string>
+	<string name="disunit">km</string>
+	<string name="month">Měsíc</string>
+	<string name="y_lable">Kroky(calorie)</string>
+	<string name="beijing">Beijing</string>
+	<string name="totalsize">Celková velikost</string>
+	<string name="seetrace">Zobrazení trasy</string>
+	<string name="logout">Odhlásit se</string>
+	<string name="questionnaire">Dotazník</string>
+	<string name="userguide">Uživatelská příručka</string>
+	<string name="startpoint">Počáteční bod:</string>
+	<string name="starticon">Počáteční bod</string>
+	<string name="endpoint">Konečný bod:</string>
+	<string name="endicon">Konečný bod</string>
+	<string name="mytrace">Moje trasa</string>
+	<string name="filter">Filtrovat</string>
+	<string name="mark">značka</string>
+	<string name="local">Místní</string>
+	<string name="cloud">Cloud</string>
+	<string name="input_tracename">Vložit název trasy</string>
+	<string name="choosetype">Zvolit typ trasy</string>
+	<string name="testtrace">Zkušební trasa</string>
+	<string name="tips_localnotrace">Žádné trasy? Zaznamenejte si skvělou trasu teď!</string>
+	<string name="tips_cloudnotrace">Žádná trasa v Cloudu, klikněte sem pro obnovení</string>
+	<string name="tips_cloudnewtrace">Nová trasa nalezena, táhnutím dolů obnovte zobrazení</string>
+	<string name="tips_cloudnotrace_nonet">Chyba sítě! Prosím připojte se k síti, klikněte zde k obnovení</string>
+	<string name="tips_selectvideo">Video musí menší než 20MB</string>
+	<string name="tips_advicesubmit">Prosím podělte se o vaše postřehy</string>
+	<string name="tips_advicesuccess">Děkujeme za vaše postřehy.</string>
+	<string name="tips_postfail">Operace se nezdařila. Prosím zkuste to znovu později.</string>
+	<string name="tips_getcommentsuccess">Get Comment Success</string>
+	<string name="tips_netdisconnect">Chyba sítě! Zkontrolujte síťové připojení.</string>
+	<string name="tips_cannotaddmark">Chyba sítě! Nepodařilo se přidat značku</string>
+	<string name="tips_uploadpic_neterror">Aktuální síťové připojení je slabé! Čekání na síťové připojení k nahrání fotografií</string>
+	<string name="tips_npwdnull">Pole pro nové heslo nelze nechat prázdné</string>
+	<string name="tips_pwdnull">Pole pro heslo nelze nechat prázdné</string>
+	<string name="tips_npwdillegal">Nové heslo obsahuje nepovolené znaky ?、!、#,atd</string>
+	<string name="tips_npwddiffer">Hesla se neshodují</string>
+	<string name="tips_pwddiffer">Hesla se neshodují</string>
+	<string name="tips_opwderror">Původní heslo nebylo zadáno správně</string>
+	<string name="tips_pwdchangeok">Heslo úspěšně změněno</string>
+	<string name="tip">tip</string>
+	<string name="tips_changing">Probíhá změna, prosím vyčkejte</string>
+	<string name="tips_takepicfail">Fotografování se nepodařilo, zkuste to prosím znovu nebo vyberte fotografii z vašeho alba!</string>
+	<string name="tips_choosevideofail">Nelze vybrat video, potvrďte prosím stav knihovny médií!</string>
+	<string name="tips_takevideofail">Video se nezdařilo, zkuste to prosím znovu nebo vyberte video ze správce souborů!</string>
+	<string name="tips_commentsubmit">Není možné odeslat bod zájmu bez komentáře</string>
+	<string name="tips_selectbehaviour">Prosím zvolte aktivitu</string>
+	<string name="tips_selectduration">Prosím zvolte dobu trvání</string>
+	<string name="tips_selectpartnernum">Vyberte prosím číslo svého partnera</string>
+	<string name="tips_selectrelationship">Vyberte prosím vztah k partnerovi</string>
+	<string name="tips_uploadinbgbegin">Nahrávání, lze vidět přes [Trasa-Zobrazení trasy-Interest] nebo [Já-Moje Album]</string>
+	<string name="tips_uploadinbg">Náhrávání...</string>
+	<string name="tips_uploadfaildlg_msg1">Nahrát</string>
+	<string name="tips_uploadfaildlg_msg2">soubor</string>
+	<string name="tips_uploadfaildlg_msg3">, retransmit?</string>
+	<string name="tips_fail">Nezdařilo se</string>
+	<string name="tips_success">Zdařilo se</string>
+	<string name="tips_error">Chyba</string>
+	<string name="tryagain">Zkusit znovu</string>
+	<string name="tips_docancle">Zrušit operaci</string>
+	<string name="tips_dofail">Operace se nezdařila, please try again or use other methods</string>
+	<string name="tips_savepath">Uložit složku</string>
+	<string name="tips_norighttomkdir">Váš telefon nepodporuje novou složku, fotoaparát ukončen</string>
+	<string name="tips_findsdfail">Adresář úložiště nebyl nalezen</string>
+	<string name="tips_createfilefail">Při fotografování se vyskytly problémy, klikněte v horní části na "+" pro výběr fotografie</string>
+	<string name="tips_nosd">Žádná paměťová karta</string>
+	<string name="tips_selectvideoagain">Znovu zvolit video</string>
+	<string name="tips_dlgtle_selectvideo">Vyberte režim videa</string>
+	<string name="tips_dlgtle_selectpic">Vyberte režim obrázku</string>
+	<string name="downhasnew">Aktualizováno</string>
+	<string name="waiting">Čekání</string>
+	<string name="pausing">Pozastavení</string>
+	<string name="installsuccess">Instalace proběhla úspěšně</string>
+	<string name="decompressing">Rozbalování souboru</string>
+	<string name="neterror">Chyba sítě</string>
+	<string name="downhaserror">Chyba stahování</string>
+	<string name="tips_dlgtle_init">Načítání</string>
+	<string name="tips_dlgmsg_inittrace">Načítání...</string>
+	<string name="tips_dlgmsg_optmizetrace">Načítání...</string>
+	<string name="tips_dlgmsg_inittracelist">Načítání...</string>
+	<string name="tips_cloudtracenum">Trasy v Cloudu:</string>
+	<string name="tips_startdown">Začít stahování</string>
+	<string name="tips_pausedown">Pozastavit stahování</string>
+	<string name="tips_downfinish">Stahování dokončeno</string>
+	<string name="tips_downfail_nodata">Chyba stahování, žádné relevantní údaje</string>
+	<string name="tips_uploadsuccess">Úspěšně nahráno do Cloudu</string>
+	<string name="tips_uploadfail">Nahrání do Cloudu se nezdařilo</string>
+	<string name="tips_deletefail">Odstranění se nezdařilo</string>
+	<string name="tips_nodata">Žádná data</string>
+	<string name="tips_initfail">Nepodařilo se načíst, zkuste to prosím později</string>
+	<string name="tips_inputillegal">Váš vstup obsahuje nepovolené znaky. Zadejte znovu</string>
+	<string name="tips_inputcannotnull">Vstup nemůže být prázdný</string>
+	<string name="tips_infonotwhole">Neúplné informace</string>
+	<string name="tips_birthillegal">Datum narození není platné</string>
+	<string name="tips_pleaseinput">Prosím vložte</string>
+	<string name="tips_inputnewpwd">Prosím vložte nové heslo</string>
+	<string name="tips_secpwderror">Chyba náhradního hesla</string>
+	<string name="tips_idnotexist">Ověření selhalo: účet neexistuje</string>
+	<string name="tips_pwdtiperrpor">Ověření selhalo: Heslo není správné</string>
+	<string name="close">Zavřít</string>
+	<string name="idpwdcannotnull">Účet a heslo nemohou být prázdné</string>
+	<string name="tips_dlgtle_login">Přihlášení</string>
+	<string name="tips_dlgmsg_login">Připojování ... Počkejte prosím</string>
+	<string name="tips_dlgmsg_init">nahrávání ... Počkejte prosím</string>
+	<string name="tips_loginfail_noid">Přihlášení se nezdařilo: účet neexistuje</string>
+	<string name="tips_loginfail_nopwd">Přihlášení se nezdařilo: Chyba hesla</string>
+	<string name="tips_interrupttrace_msg">Poslední záznam o trase byl přerušený. Pokračovat v zaznamenávání stopy?</string>
+	<string name="tips_starttrace">Začít nahrávat</string>
+	<string name="tips_addmark">Klikněte na pravé straně na tlačítko "Fotoaparát" a přidejte bod zájmu</string>
+	<string name="tips_choosetype">Vyberte typ trasy</string>
+	<string name="end">Konec</string>
+	<string name="tips_endtracedlg_msg">Ukončit trasu?</string>
+	<string name="tips_accuracy_msg">Aktuální přesnost polohování je nízká, zapněte prosím GPS pro zlepšení přesnosti polohování</string>
+	<string name="tips_accuracydlg_msg">Aktuální přesnost polohování je nízká, kliknutím na tlačítko [Ano] zaznamenáte polohu s nízkou přesností a kliknutím na [Ne] použijte pouze polohu s vysokou přesností.</string>
+	<string name="tips_recorderror_nogps">Nahrávání se nezdařilo a místo vašeho umístění se nepodařilo najít</string>
+	<string name="tips_recordsuccess">Úspěšně nahráno do Cloudu</string>
+	<string name="tips_recordsuccess_postfail">Konec záznamu, ale nepodařilo se nahrát do Cloudu</string>
+	<string name="tips_recordsuccess_nonet">Váš telefon je v režimu offline, trasa byla uložena lokálně.</string>
+	<string name="tips_uploadtracedlg_msgfail">Při trase došlo k neznámým potížím, trasa byla uložena lokálně. Systém automaticky nahraje trasy do Cloudu. Zkusit znovu?</string>
+	<string name="tips_uploadtracedlg_msgnonet">No network. Trace stored in the local. The system will be automatically uploaded to the cloud when connected to network</string>
+	<string name="tips_share_nonet1">Pro sdílení se připojte k síti</string>
+	<string name="tips_share_nonet2">Sdílení selhalo. Zkontrolujte síťové připojení a zkuste to znovu.</string>
+	<string name="tips_share_fail">Sdílení selhalo. Prosím zkuste to znovu později.</string>
+	<string name="tips_uploadpic_nonet">Automatické nahrávání po připojení k WiFi</string>
+	<string name="myalbum">Moje album</string>
+	<string name="tips_deletedlgmsg_album">Chcete tento komentář smazat?</string>
+	<string name="tips_deletedlgmsg_trace">Chcete odstranit vybranou trasu? Trasa v lokálním úložišti a cloudu bude odstraněn a nelze ji obnovit.</string>
+	<string name="tips_deletedlgmsg_trace1">Chcete odstranit vybranou trasu? Trasa v lokálním úložišti a cloudu bude odstraněn a nelze ji obnovit.</string>
+	<string name="tips_notraceselected">Žádná vybraná trasa</string>
+	<string name="tips_handling">Zpracovává se...</string>
+	<string name="tips_deletedlgmsg">Odstraňuje se...</string>
+	<string name="tips_downmsg">Stahování...</string>
+	<string name="tips_downupmsg">Kopírování...</string>
+	<string name="tips_uploadmsg">Nahrávání...</string>
+	<string name="tips_traceexist">Trasa již existuje</string>
+	<string name="totaltxt1">zvolit</string>
+	<string name="totaltxt2"></string>
+	<string name="tips_deletesuccess">Úspěšně odstraněno</string>
+	<string name="tips_deletefail_dberror">Chyba databáze! Upgrade na nejnovější verzi</string>
+	<string name="tips_picnotfound">Nahrávání obrázku se nezdařilo</string>
+	<string name="tips_videonotfound">Nahrávání videa se nezdařilo</string>
+	<string name="tips_videodownfail">Stahování videa se nezdařilo, zkuste to prosím později</string>
+	<string name="tips_changesuccess">Úspěšně změněno</string>
+	<string name="checkupdate">Zkontrolovat aktualizace</string>
+	<string name="tips_hasnew">Aktualizováno</string>
+	<string name="tips_alreadynew">Toto je nejnovější verze</string>
+	<string name="tips_updatedlgmsg">Kontrola aktualizací prosím čekejte...</string>
+	<string name="tips_updatedlg_tle">Aktualizace</string>
+	<string name="tips_updatedlg_msg1">Zkontrolujte nejnovější verzi</string>
+	<string name="tips_downnewapk">Stáhněte si nejnovější verzi</string>
+	<string name="tips_downprogress">Postup stahování</string>
+	<string name="tips_updatedlg_msg2">Číslo verze:</string>
+	<string name="tips_updatedlg_msg3">Velikost souboru:</string>
+	<string name="tips_updatedlg_msg4">Čas vydání:</string>
+	<string name="tips_updatedlg_msg5">Obsah aktualizace:</string>
+	<string name="tips_updatedlg_msg6">Klepnutím na tlačítko OK stáhněte nejnovější verzi</string>
+	<string name="tips_update_alreadynew">Používáte nejnovější verzi</string>
+	<string name="tips_autodownnewapk">Stáhněte si nejnovější verzi aplikace. Průběh stahování lze vidět na oznamovací liště. Automatické stahování můžete vypnout v nastavení</string>
+	<string name="tips_gotodownnewapk">Stáhněte si nejnovější verzi aplikace. Průběh stahování lze vidět na oznamovací liště..</string>
+	<string name="tips_newapkdown">Nejnovější verze aplikace se stáhne, klikněte na oznamovací liště instalovat</string>
+	<string name="tips_install">Klikněte pro instalaci</string>
+	<string name="sportdata">Sport Data</string>
+	<string name="tips_synchronous">Synchronizace</string>
+	<string name="tips_synchronous_succ">Synchronizace proběhla úspěšně</string>
+	<string name="setbyserver">Sekundy  (Nastavení pozadí)</string>
+	<string name="hour">hodina</string>
+	<string name="minute">minuta</string>
+	<string name="someday">někdy</string>
+	<string name="mobconnect_tips">Opravdu chcete nahrát komentáře? Může být spotřebován větší objem dat. Pokud nechcete, klikněte na [Zrušit], po připojení k WiFi se komentáře nahrají.</string>
+	<string name="tips_uploadpic_nowifi">Momentálně žádné připojení k síti WiFi. Při připojení k síti WiFi bude automaticky nahráno</string>
+	<string name="share_title">Sdílení trasy</string>
+	<string name="share_detail">Obsah trasy</string>
+	<string name="exit">Ukončit</string>
+	<string name="open">Otevřít</string>
+	<string name="tips_clean">Opravdu chcete vymazat data v mezipaměti pro tuto aplikaci? Zahrnují fotografie, videa a informace o trasách uložené v místním úložišti.</string>
+	<string name="exitdlg">Ukončit aplikaci?</string>
+	<string name="exitdlg0">V současné době probíhá záznam trasy, vynucené ukončení způsobí přerušení záznamu, přesto chcete ukončit aplikaci?</string>
+	<string name="exitdlg1">Opravdu chcete opustit tento účet?</string>
+	<string name="exitdlg2">Probíhá záznam trasy. Nucené ukončení způsobí přerušení záznamu. Stále chcete ukončit aplikaci?</string>
+	<string name="tips_exit">Klikněte znovu pro ukončení</string>
+	<string name="tips_agreeprotocol">Prosím, udělte souhlas touto licencí softwaru a smlouvou o poskytování služeb.</string>
+	<string name="iagreeprotocol">Souhlasím s touto licenční smlouvou a servisní smlouvou.</string>
+	<string name="tips_dlgtle_protocol">Licencování softwaru a smlouva o poskytování služeb</string>
+	<string name="tips_dlgmsg_protocol1">1.Tento software potřebuje získat informace o vaší poloze</string>
+	<string name="tips_dlgmsg_protocol2">2.Tento software potřebuje získat čas hovorů, stejně jako dobu odesílání a příjmu sms zpráv. Software nebude mít přístup k obsahu hovorů a zpráv.</string>	
+	<string name="tips_dlgmsg_protocol3">3.Berete na vědomí a souhlasí s tím, že: aby vám tento software poskytoval efektivní služby, může používat zdroj vašeho mobilního komunikačního terminálového procesoru a šířku pásma. Použití tohoto software může generovat poplatky za přenos dat. Uživatelé potřebují znát relevantní informace o  svém operátorovi a počítát s příslušnými náklady.</string>
+	<string name="tips_dlgmsg_protocol4">4.Tento software nenese odpovědnost za vymazání nebo selhání uložení souvisejících dat v tomto software.</string>
+	<string name="tips_dlgmsg_protocol5">5.Používáním této aplikace potvrzujete, že jste si přečetli a souhlasili s podmínkami používání. Vývojáři mají v případě potřeby právo upravovat podmínky této smlouvy. Můžete se odvolat na příslušné doložky smlouvy v nejnovější verzi softwaru.Pokud budete pokračovat v používání softwaru po změně podmínek této smlouvy, má se za to, že jste přijali upravený protokol.Pokud jej nepřijímáte, měli byste přestat používat tento software.</string>	
+	
+	<string name="tips_gpsdlgtle">Zapnout GPS</string>	
+	<string name="tips_gpsdlgmsg11">Typ trasy, který jste vybrali, je procházka, prosím otevřete GPS pro záznam.</string>	
+	<string name="tips_gpsdlgmsg10">Probíhá záznam trasy. Zdá se, že GPS není zapnutá. Doporučuje se zapnout GPS pro zvýšení přesnosti. Klepnutím na tlačítko [OK] zapněte GPS.</string>	
+	<string name="tips_cannotloc">Zapněte prosím internet nebo GPS pro záznam, kliknutím na [otevřít] vstoupíte do rozhraní pro nastavení GPS.</string>
+	<string name="tips_gpsdlgmsg2">Open Mothod:\nMothod1.Stiskněte tlačítko GPS na horní liště oznámení\nMothod2.V režimu Umístění zvolte "vysokou přesnost"</string>	
+	<string name="pull_to_refresh_pull_label">Zatáhnout dolů pro obnovení</string>
+    <string name="pull_to_refresh_release_label">Obnovit</string>
+    <string name="pull_to_refresh_refreshing_label">Obnovit\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">Uvolnit pro načtení</string>
+    <string name="pull_to_refresh_footer_pull_label">Načíst další</string>
+    <string name="pull_to_refresh_footer_refreshing_label">Načítání\u2026</string>
+    <string name="tips_refreshsuccess">Úspěčně obnoveno</string>
+    <string name="tips_deloffmap">Vymazat offline mapu</string>
+    <string name="tips_errorversion">Chyba aplikace, zkuste to znovu nebo restartovat aplikaci</string>
+    <string name="tips_exception">Je nám líto, došlo k výjimce, aplikace bude ukončena</string>
+    <string name="noshow">Žádná připomínka</string>
+    <string name="minegroup">Připojen do skupiny</string>
+    <string name="allgroup">Všechny skupiny</string>
+    <string name="addgroup">Přidat skupinu</string>
+    <string name="joingroup">Přidat se do skupiny</string>
+    <string name="exitgroup">Konec</string>
+    <string name="nojoinedgroup">Nepřidali jste se do žádné skupiny. Najděte skupinu, která vás zajímá [Přidat skupinu] a přidejte se do ní. Klikněte sem pro obnovení</string>
+    <string name="nogroup">Žádná skupina. Klikněte zde obnovit</string>
+    <string name="trytorefresh">Výjimka sítě. Klikněte zde pro obnovení</string>
+    <string name="tips_initgroup">Načítá informace o skupině, čekejte prosím...</string>
+    <string name="tips_pleasechoosegroup">Vyberte skupinu</string>
+    <string name="tips_quitgroupdlg_msg">Opravdu chcete opustit vybranou skupinu?</string>
+    <string name="tips_quitgroupsuccess">Skupina úspěšně opuštěna.</string>
+    <string name="tips_quitgroupfail">Operace se nezdařila, zkuste to znovu později.</string>
+    <string name="tips_applygroupsuccess">Aplikace byla odeslána. Počkejte na potvrzení administrátora</string>
+    <string name="tips_applygroupfail">Aplikace nebyla odeslána, prosím zkuste to později.</string>
+    <string name="tips_joingroupsuccess">Přidání do skupiny bylo úspěšné</string>
+    <string name="tips_joingroupfail">Přidání do skupiny selhalo. Zkuste to prosím znovu.</string>
+    <string name="tips_cleanok">Mezipamět vymazána</string>
+    <string name="groupinfo">Informace o skupině</string>
+    <string name="group_name">Název skupiny</string>
+    <string name="group_detail">Detaily o skupiny</string>
+    <string name="member_nums">Členové</string>
+    <string name="create_time">Datum založení</string>
+    <string name="create_man">Vytvořit člena</string>
+    <string name="manager_ids">Administrátor</string>
+    <string name="searchgroups">Vložte název skupiny</string>
+    <string name="tips_search_cannotnull">Pole nelze nechat prázdné</string>
+    <string name="tips_searching">Vyhledávání</string>
+    <string name="tips_search_nogroup">Žádná související skupina</string>
+    <string name="tips_bgrunguide">Chcete-li zajistit, aby aplikace mohla pokračovat v práci na pozadí, připojte prosím aplikaci k "bílému seznamu" nebo "seznamu ochrany" v programu Vyčištění paměti. Po dokončení této operace, klikněte na [bez připomínání]. Klepněte na tlačítko [OK] a provedete operaci.</string>
+    <string name="addmarker">Přidat bod zájmu</string>
+    <string name="checktraceinfo">Informace o trase</string>
+    <string name="poi">Zájmy</string>
+    <string name="add">Přidat</string>
+    <string name="feeling">Pocit:</string>
+    <string name="feelingst">Pocit:</string>
+    <string name="happy">Šťastný</string>
+    <string name="general">Neutrální</string>
+    <string name="unhappy">Nešťastný</string>
+    <string name="behaviour">Aktivita:</string>
+    <string name="partner_num">Partner:</string>
+    <string name="relation">Vztah:</string>
+    <string name="duration">Trvání:</string>
+    <string name="selectplease">Zvolit</string>
+    <string name="url">http://219.218.118.176:8090/Communication/</string>
+    <string name="url_crash">http://219.218.118.176:8090/Communication/upExceptionInfo.aspx</string>
+    <string name="url_heart">http://219.218.118.176:8090/Communication/heartbeat.aspx</string>
+	<string name="url_file">http://219.218.118.176:8089/Mobile/</string>
+	<string name="url_upevent">http://219.218.118.176:8090/Communication/upComment.aspx</string>
+	<string name="url_upfile">http://219.218.118.176:8089/Mobile/upFile.aspx</string>
+	<string name="url_downevent">http://219.218.118.176:8089/Mobile/downComment.aspx</string>
+	<string name="url_downfile">http://219.218.118.176:8089/Mobile/downFile.aspx</string>
+	<string name="url_deleteevent">http://219.218.118.176:8089/Mobile/userChgCmt.aspx</string>
+	<string name="url_wx">http://www.lisoft.com.cn/Share/PoMobile.ashx?</string>
+	<string name="app_copyright1">copyright @2016</string>
+	<string name="app_copyright2">School of Management and School of Computer</string>
+	<string name="app_copyright3">of Shandong University.</string>
+	<string name="app_copyright4">Všechna práva vyhrazena.</string>
+	
+	<string name="app_link">http://www.hptracker.com</string>
+	<string name="wxappid">wxbe3210c55c8d7e64</string>
+	
+	<string name="item_helpdoc">Pomoc</string>
+	<string name="item_advice">Zpětná vazba</string>
+	<string name="item_checkupdate">Kontrola aktualizací</string>
+	<string name="item_personalinfo">Osobní informace</string>
+	<string name="item_mydata">Můj profil</string>
+	<string name="item_mygroup">Moje skupina</string>
+	<string name="item_changepwd">Změnit heslo</string>
+	<string name="item_sportdata">Sport Data</string>
+	<string name="item_myalbum">Moje album</string>
+	<string name="item_offlinemap">Offline Mapa</string>
+	<string name="item_settings">Nastavení</string>
+	<string name="item_setbgrun">Průvodce ke spuštění na pozadí</string>
+	<string name="item_setparameter">Nastavení parametrů</string>
+	<string name="item_clean">Vymazat mezipaměť</string>
+	<string name="item_about">Informace o aplikaci</string>
+	<string name="item_exit">Opustit stávající účet</string>
+	<!-- 统设置界面需要用到的字符串 -->
+	<string name="tuli">Předchozí údaje o pohybu (Zelená představuje počet kroků, žlutá udává kalorie)</string>
+	<string name="refreshbtn">Synchronizace</string>
+    <string name="system_settings">Nastavení systému</string>
+    <string name="auto_update_setting">Nastavení automatické aktualizace</string>
+    <string name="auto_update_switch_title">Kontrola aktualizací</string>
+    <string name="auto_update_switch_key">auto_update_switch</string>
+    <string name="auto_update_switch_summary_on">Kontrola aktualizací</string>
+    <string name="auto_update_switch_summary_off">Close automatically check for updates</string>
+    
+    <string name="auto_upload_switch_title">Nahrát polohu pouze při připojení k WIFI</string>
+    <string name="auto_upload_switch_key">auto_upload_switch</string>
+    <string name="auto_upload_switch_summary_on">Nahrávat pouze při připojení k WIFI</string>
+    <string name="auto_upload_switch_summary_off">WiFi、GPRS(2G/3G/4G)network state can be uploaded</string>
+    
+    <string name="auto_uploadpic_switch_title">Média náhrávat pouze na WiFi</string>
+    <string name="auto_uploadpic_switch_key">auto_uploadpic_switch</string>
+    <string name="auto_uploadpic_switch_summary_on">Upload only in WiFi state</string>
+    <string name="auto_uploadpic_switch_summary_off">WiFi、GPRS(2G/3G/4G)network state can be uploaded</string>
+    
+    <string name="auto_update_frequency_title">Nahrávat intervaly parametrů</string>
+    <string name="auto_update_frequency_key">auto_update_frequency</string>
+    <string name="auto_update_frequency_default_value">60</string>
+    <string name="auto_update_frequency_summary">Aktualizujte interval lokalizačního období</string>
+    
+    <string name="language_title">Jazyk</string>
+    <string name="language_key">Jazyk</string>
+    <string name="language_default_value">0</string>
+    <string name="language_summary">Jazyk</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">English</string>
+    <string name="language_czech">česky</string>
+    
+    <string name="auto_upload_frequency_title">Nahrát intervaly pozičních dat</string>
+    <string name="auto_upload_frequency_key">auto_upload_frequency</string>
+    <string name="auto_upload_frequency_default_value">30</string>
+    <string name="auto_upload_frequency_summary">设置位置上传时间间隔</string>
+    
+    <string name="auto_record_loc_frequency_title">Local positioning interval</string>
+    <string name="auto_record_loc_frequency_key">auto_rec_loc_frequency</string>
+    <string name="auto_record_loc_frequency_default_value">5</string>
+    <string name="auto_record_loc_frequency_summary">设置记录状态下定位时间间隔</string>
+    
+    <string name="auto_norecord_loc_frequency_title">非记录状态下定位时间间隔</string>
+    <string name="auto_norecord_loc_frequency_key">auto_norec_loc_frequency</string>
+    <string name="auto_norecord_loc_frequency_default_value">10</string>
+    <string name="auto_norecord_loc_frequency_summary">设置非记录状态下定位时间间隔</string>
+    
+    <string name="share_to_wx_session">WeChat Přátelé</string>
+    <string name="share_to_wx_timeline">WeChat Momenty</string>
+    <string name="share_to_qzone">Qzone</string>
+    <string name="share_to_qq">QQ Přátelé</string>
+    <string name="share_to">Sdílet s</string>
+    <string name="cantdisplayimg">nelze zobrazit</string>
+    <string name="picture_failed">Část původního obsahu se nepodařila zobrazit, zobrazit pouze náhled</string>
+    
+    <string name="normal">Normální</string>
+    <string name="satellite">Satelitní</string>
+    
+    <string name="pathplaning">plánování cesty</string>
+    <string name="select_mode">plánování cesty</string>
+    <string name="walk_mode">procházka</string>
+    <string name="drive_mode">jízda autem</string>
+    <string name="bus_mode">bus</string>
+    <string name="select_dest">vyhledat</string>
+    <string name="beginning">z</string>
+    <string name="destination">do  </string>
+    <string name="walk_to">jít do</string>
+    <string name="drive_to">jet do</string>
+    <string name="by_bus_to">jet autobusem do</string>
+    <string name="search">vyhledat</string>
+    <string name="mylocation">moje poloha</string>
+    <string name="input_begin">výchozí bod</string>
+    <string name="input_end">destinace</string>
+    <string name="calculate_tips">Klepnutím na mapu přidáte místo měření</string>
+    <string name="route_tips">Klepnutím na mapu přidáte plánovací bod. Klepnutím na tlačítko v levém horním rohu odstraníte místo, které jste právě připojili. Klepnutím na tlačítko pro vyhledávání v pravém horním rohu vyhledáte počáteční a cílové místo. Režim plánování můžete změnit kliknutím na tlačítko pravý obrázek.</string>
+    <string name="total_distance">celková vzdálenost</string>
+    <string name="total_area">celková oblast</string>
+    <string name="square_meter">metr čtvereční</string>
+    <string name="square_kilometer">kilometr čtvereční</string>
+    <string name="to_the_previous_point">předchozí bod</string>
+    <string name="latitude"></string>
+    <string name="longitude"></string>
+    <string name="altitude"></string>
+    
+	<string-array name="education">
+        <item> 1 Základní vzdělání</item>
+        <item> 2 Junior High School Education</item>
+        <item> 3 Střední vzdělání</item>
+        <item> 4 Junior College Degree</item>
+        <item> 5 Bakalářské vzdělání</item>
+        <item> 6 Magisterské vzdělání</item>
+        <item> 7 Doktorandské vzdělání</item>
+    </string-array>
+    <string-array name="vocation">
+        <item> 1 Student</item>
+        <item> 2 Učitel</item>
+        <item> 3 Voják</item>
+        <item> 4 Pracovník</item>
+        <item> 5 Farmer</item>
+        <item> 6 Civil Servant</item>
+        <item> 7 Retire</item>
+        <item> 8 Individual Management</item>
+        <item> 9 Clerk</item>
+        <item>10 Laid-off</item>
+        <item>11 Other</item>
+    </string-array>
+    <string-array name="income">
+        <item>0 0-10thousands</item>
+        <item>1 10-20thousands</item>
+        <item>2 20-30thousands</item>
+        <item>3 30-40thousands</item>
+        <item>4 40-50thousands</item>
+        <item>5 50-60thousands</item>
+        <item>6 60-70thousands</item>
+        <item>7 70-80thousands</item>
+        <item>8 80-90thousands</item>
+        <item>9 90-100thousands</item>
+        <item>10 100-200thousands</item>
+        <item>20 200-300thousands</item>
+    </string-array>
+    <string-array name="marriage">
+        <item>0 Neznámý</item>
+        <item>1 Svobodný/á</item>
+        <item>2 Ženatý/Vdaná</item>
+        <item>3 Rozvedený/á</item>
+    </string-array>
+    <string-array name="hildren">
+        <item>0 0</item>
+        <item>1 1</item>
+        <item>2 2</item>
+        <item>3 3</item>
+        <item>4 4</item>
+        <item>5 5</item>
+    </string-array>
+	 <!-- 系统设置界面需要要到的数组 -->
+	<string-array name="auto_update_frequency_entry">
+		<item>10seconds</item>
+		<item>30minutes</item>
+		<item>1hour</item>
+		<item>12hours</item>
+		<item>24hours</item>	
+	</string-array>
+	<string-array name="auto_update_frequency_value">
+		<item>10</item>
+		<item>30</item>
+		<item>60</item>
+		<item>720</item>
+		<item>1440</item>	
+	</string-array>
+	<string-array name="language_entry">
+		<item>中文（简体）</item>
+		<item>English</item>
+		
+		
+	</string-array>
+	<string-array name="language_value">
+		<item>0</item>
+		<item>1</item>
+		
+		
+	</string-array>
+	<string-array name="way_selectvideo">
+	    <item >Videonahrávka</item>
+	    <item >Zvolit soubor</item>
+	</string-array>
+	<string-array name="way_selectpic">
+	    <item >Pořídit fotku</item>
+	    <item >Album</item>
+	</string-array>
+	<string-array name="personinfo">
+	    <item >Moje Data</item>
+	    <item >Moje Skupina</item>
+	    <item >Změnit heslo</item>
+	    <item >Sport Data</item>
+	    
+	</string-array>
+	<string-array name="personcenter">
+	    <item >Osobní informace</item>  
+	    <item >Moje Album</item>
+	    <item >Offline Mapa</item>
+	    <item >Pomoc</item>
+	    <item >Obecné nastavení</item>
+	    <item >Nechat běžet na pozadí</item>
+	    <item >Dohledat aktualizace</item>
+	    <item >Zpětná vazba</item>
+	    
+	</string-array>
+	<string-array name="aboutmenu">
+	    
+	    <item >pomoc</item>
+	    
+	    <item >Zpětná vazba</item>
+	    <item >Dohledat aktualizace</item>
+	</string-array>
+	<string-array name="downmap">
+	    <item>Stáhnout Offline AMap</item>
+	    <item>Stáhnout Offline BaiduMap</item>
+	</string-array>
+	<string-array name="sporttype">
+	    <item>chůze</item>
+		<item>kolo</item>
+		<item>slide</item>
+		<item>auto</item>
+		<item>vlak</item>	
+		<item>ostatní</item>	
+	</string-array>
+	<string-array name="phonebrand">
+	    <item>xiaomi</item>
+	    <item>meizu</item>
+	    <item>honor</item>
+	    <item>huawei</item>
+	    <item>vivo</item>
+	    <item>oppo</item>
+	    <item>htc</item>
+	    <item>coolpad</item>
+	</string-array>
+	<string-array name="popmenu">
+	    <item>Vymazat trasu</item>
+	    <item>Obnovit</item>
+	    
+	</string-array>
+	<string-array name="toolpopmenu">
+	    <item >Měřit vzdálenost</item>
+	    <item >Měřit oblast</item>
+	    <item >Plánovat trasu</item>
+	</string-array>
+	<string-array name="durationarray">
+	    <item>do 10 minut</item>
+	    <item>10-29 minut</item>
+	    <item>30-59 minut</item>
+	    <item>přes 1 hodinu</item>
+	   
+	</string-array>
+	<string-array name="behaviourarray">
+	    <item>spánek</item>
+	    <item>domácí práce</item>
+	    <item>jídlo</item>
+	    <item>nakupování</item>
+	   	<item>práce</item>
+	    <item>studium</item>
+	    <item>遛弯散步</item>
+	    <item>体育锻炼</item>
+	    <item>接送家人朋友等</item>
+	    <item>社交活动</item>
+	    <item>外出办事</item>
+	    <item>娱乐休闲</item>
+	    <item>联络活动</item>
+	    <item>个人护理</item>
+	    <item>照顾亲属</item>
+	    <item>上网</item>
+	    <item>看病就医</item>
+	    <item>外出旅游</item>
+	    <item>其他</item>
+	    
+	</string-array>
+	<string-array name="partnernumarray">
+	    <item>0</item>
+	    <item>1-5 osob</item>
+	    <item>nad 6 osob</item>
+	</string-array>
+	<string-array name="relationarray">
+	    <item>kolega</item>
+	    <item>spolužák</item>
+	    <item>přítel</item>
+	    <item>rodina</item>
+	    <item>ostatní</item>
+	</string-array>
+	<string-array name="layers_array">
+	    <item>@string/normal</item>
+	    <item>@string/satellite</item>
+	</string-array>
+</resources>

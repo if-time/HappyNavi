@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+   
+    <RadioGroup
+        android:id="@+id/maplayer_tab"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="left"
+        >
+
+        <RadioButton
+            android:id="@+id/normalmapradio"
+           	android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+            android:text="@string/amap_vector" 
+            android:textSize="20dp"
+	        android:textColor="@color/black"
+            android:button="@drawable/checkbox_bg"
+            />
+
+        <RadioButton
+            android:id="@+id/satelliteradio"
+            android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+            android:text="@string/amap_satallite"
+            android:textSize="20dp"
+	        android:textColor="@color/black"
+	        android:button="@drawable/checkbox_bg"
+             />
+ 		<RadioButton
+            android:id="@+id/bdnormalmap"
+            android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+            android:text="@string/bmap_vector"
+            android:textSize="20dp"
+	        android:textColor="@color/black"
+	        android:button="@drawable/checkbox_bg"
+             />
+        <RadioButton
+            android:id="@+id/bdsatellitemap"
+            android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+            android:text="@string/bmap_satallite"
+            android:textSize="20dp"
+	        android:textColor="@color/black"
+	        android:button="@drawable/checkbox_bg"
+             />
+    </RadioGroup>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+        <Button
+            android:id="@+id/layer_cancel"
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancl"
+            android:background="@drawable/button_register_bg"
+            android:textSize="20dp"
+	        android:textColor="@color/white"
+	        
+           />
+        <Button
+            android:id="@+id/layer_yes"
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="@string/confirm"
+            android:background="@drawable/button_register_bg"
+            android:textSize="20dp"
+	        android:textColor="@color/white"
+           />
+    </LinearLayout>
+</LinearLayout>

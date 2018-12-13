@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="60dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+	<RelativeLayout        
+    	 
+    	android:layout_width="match_parent"     
+    	android:layout_height="wrap_content"  
+	    android:background="@drawable/title_bar"
+	    android:orientation="horizontal"   
+	      >
+	
+	   
+	    <TextView
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/mytrace"
+	        android:textColor="@android:color/white"
+	        android:textSize="18dp" 
+	        android:layout_centerInParent="true"
+	        />	
+		<Button 
+		    android:id="@+id/trail_search"
+		    android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_centerInParent="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="20dp"
+		    android:background="@drawable/trail_search"
+	        android:visibility="invisible"
+		    />
+	</RelativeLayout>
+	   
+    <LinearLayout
+        android:id="@+id/id_switch_tab_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:baselineAligned="false"
+        >
+
+        <LinearLayout
+            android:id="@+id/id_tab_local"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/guide_round_selector"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dip" >
+
+            <TextView
+                android:id="@+id/localtrace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/local"
+                android:textColor="#0000FF"
+                android:textSize="15sp" />
+        </LinearLayout>
+		<View
+	        android:layout_width="1dp"
+	        android:layout_height="20dp"
+	        android:layout_gravity="center_vertical"
+	        android:background="@color/gray_lite" />
+        
+        <LinearLayout
+            android:id="@+id/id_tab_cloud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/guide_round_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dip"
+            android:saveEnabled="false" >
+
+            <TextView
+                android:id="@+id/cloudtrace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/cloud"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+      
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tab_traceline_iv"
+        android:layout_width="200dp"
+        android:layout_height="3dp"
+        android:contentDescription="tab"
+        android:background="@drawable/tab_selected_pressed_holo" >
+    </ImageView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_lite" />
+
+
+    
+     <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_trace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill_horizontal"
+    android:background="@drawable/title_bar"
+    android:orientation="horizontal" >
+    <com.trackersurvey.helper.MyLinearLayout
+	    	android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:layout_gravity="center"
+	    	android:id="@+id/title_back"
+	    	android:descendantFocusability="beforeDescendants"
+	   		android:orientation="horizontal" >
+	<ImageButton	 
+	     android:id="@+id/header_left_btn"
+	     android:layout_width="10dip"
+	     android:layout_height="16dip"
+	     android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+	     android:layout_gravity="center"
+	     android:layout_marginLeft="15dip"
+	     android:background="@drawable/back" />
+    </com.trackersurvey.helper.MyLinearLayout>
+    
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addpoi"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" 
+        android:layout_centerInParent="true"
+        />
+    
+    <!-- <TextView 
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#ffffff"
+        android:layout_toRightOf="@id/header_text"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        /> -->
+    
+    <Button
+        android:id="@+id/header_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        android:text="@string/confirm"
+        android:textSize="14dp" 
+        android:textColor="@drawable/titlebutton_bg" />
+
+    
+</RelativeLayout>

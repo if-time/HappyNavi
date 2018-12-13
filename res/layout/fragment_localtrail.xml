@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ListView 
+	    android:id="@+id/listview_localtrail"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:cacheColorHint="#000000"
+	    ></ListView>
+	 <RelativeLayout 
+         
+         android:id="@+id/local_relative"
+         android:layout_width="fill_parent"
+         android:layout_height="40dp"
+         android:gravity="center_vertical"
+         
+         android:visibility="gone"
+         >
+         <Button 
+             
+             android:id="@+id/traillist_localcancel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/cancel_withdiv"
+             android:textSize="20sp"
+             android:background="@null"
+             android:layout_centerVertical="true"
+             android:textColor="@color/blue"
+             />
+          <Button 
+             
+             android:id="@+id/traillist_localupload"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/traillist_localcancel"
+             android:text="@string/upload_withdiv"
+             android:textSize="20sp"
+             android:background="@null"
+             android:layout_centerVertical="true"
+             android:textColor="@color/blue"
+             />
+         <TextView 
+             
+             android:id="@+id/traillist_localtxtcount"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/total"
+             android:textSize="15sp"
+             android:padding="3dp"
+             android:layout_centerVertical="true"
+             android:layout_toRightOf="@id/traillist_localupload"
+             />
+         
+         <Button 
+             
+             android:id="@+id/traillist_localdelete"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/delete_withdiv"
+             android:textSize="20sp"
+             android:background="@null"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"      
+             android:textColor="@color/blue"       
+             />
+         
+         
+     </RelativeLayout>
+	
+</LinearLayout>
+<TextView 
+	    android:id="@+id/localtip"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tips_localnotrace"
+	    android:layout_centerInParent="true"
+	    android:textSize="15sp"
+	    android:visibility="invisible"
+	    />
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.trackersurvey.helper.MyLinearLayout
+        android:id="@+id/Linearlayout_language"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dp"
+	    android:orientation="vertical"
+	    android:background="@color/listitem_normal"
+        >
+        <TextView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_margin="10dp"
+	       android:text="@string/language_title"
+	       android:textSize="15sp"
+	       android:textColor="#000000"
+	       />
+	   <View 
+	       android:id="@+id/divider_00"
+	       android:layout_width="match_parent"
+	       android:layout_height="1dp"
+	       android:layout_marginLeft="10dp"
+	       android:layout_marginRight="10dp"
+	       android:background="@color/grey"
+	       
+	       />
+    </com.trackersurvey.helper.MyLinearLayout>
+    
+    <com.trackersurvey.helper.MyLinearLayout
+	    android:id="@+id/Linearlayout_parameter"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/Linearlayout_language"
+	    android:orientation="vertical"
+	    android:background="@color/listitem_normal"
+	   >
+	   <TextView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_margin="10dp"
+	       android:text="@string/item_setparameter"
+	       android:textSize="15sp"
+	       android:textColor="#000000"
+	       />
+	   <View 
+	       android:id="@+id/divider_01"
+	       android:layout_width="match_parent"
+	       android:layout_height="1dp"
+	       android:layout_marginLeft="10dp"
+	       android:layout_marginRight="10dp"
+	       android:background="@color/grey"
+	       
+	       />
+	 </com.trackersurvey.helper.MyLinearLayout>
+	 
+	 <com.trackersurvey.helper.MyLinearLayout
+	    android:id="@+id/Linearlayout_bgrun"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_below="@id/Linearlayout_parameter"
+	    android:orientation="vertical"
+	    android:background="@color/listitem_normal"
+	   >
+	   <TextView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_margin="10dp"
+	       android:textSize="15sp"
+	       android:textColor="#000000"
+	       android:text="@string/item_setbgrun"
+	       />
+	   <View 
+	       android:id="@+id/divider_02"
+	       android:layout_width="match_parent"
+	       android:layout_height="1dp"
+	       android:layout_marginLeft="10dp"
+	       android:layout_marginRight="10dp"
+	       android:background="@color/grey"
+	       
+	       />
+	 </com.trackersurvey.helper.MyLinearLayout>
+	 
+	 <com.trackersurvey.helper.MyLinearLayout
+	    android:id="@+id/Linearlayout_clean"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_below="@id/Linearlayout_bgrun"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:background="@color/listitem_normal"
+	   >
+	   
+		   <TextView 
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:layout_margin="10dp"
+		       android:text="@string/item_clean"
+		       android:textSize="15sp"
+	       	   android:textColor="#000000"
+		       />
+		   <RelativeLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:gravity="center_vertical"
+	       >
+		   <TextView 
+		       android:id="@+id/cachesize"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:layout_alignParentRight="true"
+		       android:layout_marginRight="10dp"
+		       android:text="1.5MB"
+		       
+		       android:textSize="15sp"
+	           android:textColor="#000000"
+		       />
+	   </RelativeLayout>
+	 </com.trackersurvey.helper.MyLinearLayout>
+	<!-- <com.trackersurvey.helper.MyLinearLayout
+	    android:id="@+id/Linearlayout_logout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/Linearlayout_clean"
+	    android:layout_marginTop="30dp"
+	    android:gravity="center_vertical"
+	    android:background="@color/red"
+	   >
+	   <TextView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_margin="10dp"
+	       android:text="@string/item_exit"
+	       style="@style/itemText"
+	       android:textColor="@color/white"
+	       />
+	   
+	 </com.trackersurvey.helper.MyLinearLayout> -->
+	 <!-- <Button 
+	     android:id="@+id/btn_logout"
+	     android:layout_width="match_parent"
+	     android:layout_height="40dp"
+	     android:layout_below="@id/Linearlayout_clean"
+	     android:layout_marginTop="30dp"
+	     android:gravity="center"
+	     android:background="@color/red"
+	     android:text="@string/item_exit"
+	     android:textSize="16dp"
+	     /> -->
+</RelativeLayout>

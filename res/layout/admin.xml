@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingBottom="55dp"
+    android:background="#FFFFFF">
+    	<RelativeLayout        
+    	 
+    	android:layout_width="match_parent"     
+    	android:layout_height="wrap_content"  
+    	
+	    android:background="@drawable/title_bar"
+	    android:orientation="horizontal"   
+	      >
+		<com.trackersurvey.helper.MyLinearLayout
+	    	android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_centerVertical="true"
+	    	android:id="@+id/rect_goback"
+	    	android:descendantFocusability="beforeDescendants"
+		   	android:orientation="horizontal" >
+		   <Button 
+		       android:id="@+id/goback"
+		       android:layout_width="match_parent"
+		       android:layout_height="15dp"
+		       android:layout_gravity="center"
+		       
+		       android:background="@drawable/btn_back_bg"
+		       />
+	   </com.trackersurvey.helper.MyLinearLayout>
+	   <TextView 
+	       android:id="@+id/jiange"
+	       android:layout_width="10dp"
+	       android:layout_height="10dp"
+	       android:layout_toRightOf="@id/rect_goback"
+	       />
+	   <com.trackersurvey.helper.MyLinearLayout
+	    	android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_centerVertical="true"
+	    	android:id="@+id/rect_goforward"
+	    	android:layout_toRightOf="@id/jiange"
+	    	android:descendantFocusability="beforeDescendants"
+		   	android:orientation="horizontal" >
+		   <Button 
+		       android:id="@+id/goforward"
+		       android:layout_width="match_parent"
+		       android:layout_height="15dp"
+		       android:layout_gravity="center"
+		       
+		       android:background="@drawable/btn_forward_bg"
+		       />
+	   </com.trackersurvey.helper.MyLinearLayout>
+	  
+	   <RelativeLayout 
+	       android:layout_width="wrap_content"
+	       android:layout_height="40dp"
+	       android:layout_alignParentRight="true"
+	       android:layout_centerVertical="true"
+	       android:layout_marginRight="5dp"
+	       >
+		   
+	       <!-- <TextView 
+	           android:layout_width="80dp"
+	           android:layout_height="1dp"
+	           android:background="#ffffff"
+	           />
+	       
+	       <TextView 
+	           android:layout_width="80dp"
+	           android:layout_height="1dp"
+	           android:layout_alignParentBottom="true"
+	           android:background="#ffffff"
+	           />
+	       
+	       <TextView 
+	           android:layout_width="1dp"
+	           android:layout_height="match_parent"
+	           android:background="#ffffff"
+	           />
+	       
+	       <TextView 
+	           android:layout_width="1dp"
+	           android:layout_height="match_parent"
+	           android:background="#ffffff"
+	           
+	           /> -->
+		   
+	       <Button
+	        android:id="@+id/header_refresh"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginRight="10dp"
+	        android:layout_alignParentRight="true"
+	        android:background="@null"
+	        android:text="@string/refresh"
+	        android:textSize="14dp" 
+	        android:textColor="@drawable/titlebutton_bg" />
+	       
+	   </RelativeLayout>
+	   
+	   
+	    <TextView
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/mainhome"
+	        android:textColor="@android:color/white"
+	        android:textSize="18dp" 
+	        android:layout_centerInParent="true"
+	        />	
+		
+	</RelativeLayout>
+	 <WebView
+        android:id="@+id/webview_admin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:layout_alignParentLeft="true"
+        />
+	
+</LinearLayout>

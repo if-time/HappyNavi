@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    <TextView 
+        android:id="@+id/refreshtip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/tips_cloudnewtrace"
+        android:textColor="@color/blue"
+        android:visibility="gone"
+        />
+    <com.trackersurvey.helper.PullToRefreshView 
+    android:id="@+id/main_pull_refresh_view"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="0dp" 
+    android:layout_weight="1"
+    >
+    <ListView 
+	    android:id="@+id/listview_cloudtrail"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    
+	    android:cacheColorHint="#000000"
+	    ></ListView>
+    </com.trackersurvey.helper.PullToRefreshView>
+	 <RelativeLayout 
+         
+         android:id="@+id/cloud_relative"
+         android:layout_width="fill_parent"
+         android:layout_height="40dp"
+         android:gravity="center_vertical"
+         
+         android:visibility="gone"
+         >
+         <Button 
+             
+             android:id="@+id/traillist_cloudcancel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/cancel_withdiv"
+             android:textSize="20sp"
+             android:background="@null"
+             android:layout_centerVertical="true"
+             android:textColor="@color/blue"
+             />
+         <Button 
+             
+             android:id="@+id/traillist_clouddownload"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/download_withdiv"
+             android:textSize="20sp"
+             android:layout_toRightOf="@id/traillist_cloudcancel"
+             android:background="@null"
+             android:layout_centerVertical="true"
+             android:textColor="@color/blue"
+             />
+         <TextView 
+             
+             android:id="@+id/traillist_cloudtxtcount"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/total"
+             android:textSize="15sp"
+             android:padding="3dp"
+             android:layout_centerVertical="true"
+             android:layout_toRightOf="@id/traillist_clouddownload"
+             />
+         
+         <Button 
+             
+             android:id="@+id/traillist_clouddelete"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/delete_withdiv"
+             android:textSize="20sp"
+             android:background="@null"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"     
+             android:textColor="@color/blue"        
+             />
+         
+         
+     </RelativeLayout>
+
+</LinearLayout>
+<TextView 
+	    android:id="@+id/cloudtip"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tips_cloudnotrace"
+	    android:layout_centerInParent="true"
+	    android:textSize="15sp"
+	    android:visibility="invisible"
+	    />
+</RelativeLayout>

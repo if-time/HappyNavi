@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".CommentActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#FFFFFF" >
+    
+	<!-- 底部按钮 -->  
+
+    <LinearLayout
+        android:id="@+id/Layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center" >
+
+        <Button
+        android:id="@+id/advice_submit"
+         
+  		android:layout_width="fill_parent"
+	    android:layout_height="40dp"
+	    android:gravity="center"
+	    android:text="@string/submit"
+	    android:textSize="20sp"
+	    android:textColor="@android:color/white"
+	    android:background="@drawable/button_register_bg"
+	    />
+
+    </LinearLayout>
+  
+    <!-- 显示图片 -->  
+
+    <RelativeLayout
+        android:id="@+id/Content_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/Layout_bottom"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" >
+     
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 设置运行多行 设置圆角图形 黑色字体 -->
+
+            <EditText
+                android:id="@+id/editComment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="top|left"
+                android:background="@null"
+                android:hint="@string/advicehint"
+                android:maxLength="500"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <!-- 网格显示图片 行列间距5dp -->
+
+            <GridView
+                android:id="@+id/gridPicture"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="7"
+                android:listSelector="@android:color/transparent"
+                android:background="#FFFFFF"
+                android:cacheColorHint="#00000000"
+                android:fadeScrollbars="true"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="5dp" >
+            </GridView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#FFFFFF"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView_place"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13dp"
+                    android:src="@drawable/icon_place" 
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:id="@+id/textView_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="19dp"
+                    android:layout_toRightOf="@+id/imageView_place"
+                    android:text="@string/place"
+                  android:visibility="invisible"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+	</RelativeLayout>
+	
+</RelativeLayout>

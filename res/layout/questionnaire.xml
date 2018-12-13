@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingBottom="55dp"
+    android:background="#FFFFFF">
+    	<RelativeLayout        
+    	 
+    	android:layout_width="match_parent"     
+    	android:layout_height="wrap_content"  
+	    android:background="@drawable/title_bar"
+	    android:orientation="horizontal"   
+	      >
+	
+	   
+	    <TextView
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/questionnaire"
+	        android:textColor="@android:color/white"
+	        android:textSize="18dp" 
+	        android:layout_centerInParent="true"
+	        />	
+		<Button
+	        android:id="@+id/questionnaire_refresh"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="15dp"
+	        android:background="@null"
+	        android:text="@string/refresh"
+	        android:textSize="14sp" 
+	        android:textColor="@drawable/titlebutton_bg" />
+	</RelativeLayout>
+	 <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:layout_alignParentLeft="true"
+        />
+	
+</LinearLayout>

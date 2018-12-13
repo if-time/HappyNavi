@@ -1,0 +1,135 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:TextAppearance.WindowTitle">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<style name="TitleTheme" parent="android:Theme.Light" >
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowTitleBackgroundStyle">@drawable/ic_launcher</item>
+    </style>
+    
+	<style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    	<style name="normalText2" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#1e1e1e</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+	<style name="normalText3" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="itemText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+	
+    
+     <!-- 对话框样式 -->
+    <style name="dlg_sporttype" parent="@android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="dlg_maplayer" parent="@android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="trail_tab">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="text_18_ffffff">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_16_666666">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="text_15_ffffff_sdw" parent="@style/sdw_79351b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_15_666666_sdw" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="BottomDialog" parent="@android:style/Theme.Dialog">
+        <!-- 背景透明 -->
+	    <item name="android:windowBackground">@android:color/transparent</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <!-- 浮于Activity之上 -->
+	    <item name="android:windowIsFloating">true</item>
+	    <!-- 边框 -->
+	    <item name="android:windowFrame">@null</item>
+	    <!-- Dialog以外的区域模糊效果 -->
+	    <item name="android:backgroundDimEnabled">true</item>
+	    <!-- 无标题 -->
+	    <item name="android:windowNoTitle">true</item>
+	    <!-- 半透明 -->
+	    <item name="android:windowIsTranslucent">true</item>
+	    <!-- Dialog进入及退出动画 -->
+	    <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+	<!-- ActionSheet进出动画 -->
+	<style name="DialogAnimation" parent="@android:style/Animation.Dialog">
+	    <item name="android:windowEnterAnimation">@anim/dialog_bottom_in</item>
+	    <item name="android:windowExitAnimation">@anim/dialog_bottom_out</item>
+	</style>
+	
+	<style name="NoTitleDialogStyle" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowNoTitle">true</item>  
+    </style>
+    
+</resources>

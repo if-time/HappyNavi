@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+      <!-- @android:id/tabcontent 这个id必须是指定的 -->
+ 	<FrameLayout 
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            </FrameLayout>
+  
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- @android:id/tabcontent 这个id必须是指定的 -->
+        <!-- android:tabStripEnabled="false"去掉选项下划线 -->
+		
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:tabStripEnabled="false"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff">
+        </TabWidget>
+    </RelativeLayout>
+
+</TabHost>
